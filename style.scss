@@ -62,7 +62,7 @@ main {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            width: 85%;
+            width: 70%;
         }
             img {
                 @include imgsize;
@@ -71,11 +71,13 @@ main {
 
 footer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: $primary-color;
     height: 10%;
     span {
         color: $secondary-color;
+        padding: 3% 2%;
     }
 }
 
