@@ -19,14 +19,63 @@
     font-style: normal;
 }
 
+$primary-color: #579c87;
+$secondary-color: #fdcb46;
+
+@mixin imgsize {
+    width: 80%; 
+    height: auto; 
+    max-width: 300px;
+    margin: 5% 5%;
+}
+
 body {
     font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
 }
 
 header {
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    background-color: $primary-color;
         h1 {
             font-weight: 800;
+            color: $secondary-color;
         }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+        #main-menus {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 85%;
+        }
+            img {
+                @include imgsize;
+            }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color;
+    height: 10%;
+    span {
+        color: $secondary-color;
+    }
 }
 
