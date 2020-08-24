@@ -95,6 +95,17 @@ main img {
   margin: 5% 5%;
 }
 
+main #main-secondary {
+  border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  border: 0px none #579c87;
+  background-color: #579c87;
+  margin: 2% auto;
+  color: #fdcb46;
+  padding: 1px 100px;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;

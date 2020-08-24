@@ -29,6 +29,18 @@ $secondary-color: #fdcb46;
     margin: 5% 5%;
 }
 
+@mixin border {
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px none $primary-color;
+    background-color: $primary-color;
+}
+
+@mixin margin {
+    margin: 2% auto;
+}
+
 body {
     font-family: 'Montserrat';
     display: flex;
@@ -67,6 +79,13 @@ main {
             img {
                 @include imgsize;
             }
+        #main-secondary {
+            @include border;
+            @include margin;
+            color: $secondary-color;
+            padding: 1px 100px;
+            
+        }
 }
 
 footer {
