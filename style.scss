@@ -76,7 +76,7 @@ main {
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            width: 70%;
+            width: 60%;
         }
             img {
                 @include imgsize;
@@ -86,7 +86,6 @@ main {
             @include margin;
             color: $secondary-color;
             padding: 1px 100px;
-            
         }
 }
 
