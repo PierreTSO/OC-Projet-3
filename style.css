@@ -49,7 +49,9 @@ header {
 
 header h1 {
   font-weight: 800;
+  font-size: 3.5em;
   color: #fdcb46;
+  margin: 4% auto;
 }
 
 main {
@@ -121,7 +123,8 @@ footer {
 }
 
 footer span {
+  font-size: 1.5em;
   color: #fdcb46;
-  padding: 3% 2%;
+  padding: 2% 2%;
 }
 /*# sourceMappingURL=style.css.map */
