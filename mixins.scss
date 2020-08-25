@@ -1,0 +1,18 @@
+@mixin imgsize {
+    width: 80%; 
+    height: auto; 
+    max-width: 300px;
+    margin: 5% 5%;
+}
+
+@mixin border {
+    border-radius: 17px 17px 17px 17px;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 0px none $primary-color;
+    background-color: $primary-color;
+}
+
+@mixin margin {
+    margin: 2% auto;
+}
