@@ -46,29 +46,40 @@ header {
         }
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-        #main-menus {
+#main {
+    width: 60%;
+    margin: auto auto;
+        nav {
             display: flex;
             flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-evenly;
             flex-wrap: wrap;
-            width: 60%;
         }
-            img {
-                @include imgsize;
+            a {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 30px;
+                @include size(32%, 350px);
+                @include box-shadow(0, 1px, 10px, rgba(69,74,74,0.3));
             }
-        #main-secondary {
-            @include border;
-            @include margin;
-            color: $secondary-color;
-            padding: 1px 100px;
-        }
+            a:nth-child(1){
+                @include style-menu($menu1, $font-principal);
+            }
+            a:nth-child(2){
+                @include style-menu($menu2, $font-principal);
+            }
+            a:nth-child(3){
+                @include style-menu($menu3, $font-principal);
+            }
+            a:nth-child(4){
+                @include style-menu($menu4, $font-principal);
+            }
+                article h2, h3 {
+                    font-weight: 500;
+                    font-size: 1em;
+                }
 }
 
 footer {

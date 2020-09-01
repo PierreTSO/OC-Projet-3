@@ -16,3 +16,20 @@
 @mixin margin {
     margin: 2% auto;
 }
+
+@mixin size($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin box-shadow($x, $y, $blur, $color) {
+    -webkit-box-shadow: $x $y $blur $color;
+    -moz-box-shadow: $x $y $blur $color;
+    box-shadow: $x $y $blur $color;
+}
+
+@mixin style-menu($background, $police-menu) {
+    background-color:$background;
+    font-family: $police-menu;
+    text-align: center;
+}
