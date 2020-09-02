@@ -20,8 +20,32 @@
 }
 
 @font-face {
+  font-family: 'Satisfy';
+  src: url("fonts/Satisfy/Satisfy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Infant';
+  src: url("fonts/Comorant/CormorantInfant-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Kaushan Script';
   src: url("fonts/Kaushan/KaushanScript-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url("fonts/Dancing script/DancingScript-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -98,26 +122,31 @@ header h1 {
           justify-content: center;
   margin: 30px;
   width: 32%;
-  height: 350px;
+  height: 400px;
   -webkit-box-shadow: 0 1px 10px rgba(69, 74, 74, 0.3);
   box-shadow: 0 1px 10px rgba(69, 74, 74, 0.3);
 }
 
 #main a:nth-child(1) {
   background-color: #fcdfdb;
-  font-family: "Montserrat";
+  font-family: "Satisfy";
   text-align: center;
 }
 
 #main a:nth-child(2) {
   background-color: #fff5fe;
-  font-family: "Montserrat";
+  font-family: "Cormorant Infant";
   text-align: center;
+}
+
+#main a:nth-child(2) h2 {
+  -webkit-text-decoration-color: linear-gradient(to right bottom, #da842b, #f8604c, #ff3a81, #e73ac1, #9360fe);
+          text-decoration-color: linear-gradient(to right bottom, #da842b, #f8604c, #ff3a81, #e73ac1, #9360fe);
 }
 
 #main a:nth-child(3) {
   background-color: #f9f9f9;
-  font-family: "Montserrat";
+  font-family: "Dancing Script";
   text-align: center;
 }
 

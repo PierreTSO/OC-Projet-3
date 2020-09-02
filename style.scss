@@ -24,12 +24,37 @@
 }
 
 @font-face {
+    font-family: 'Satisfy';
+    src: url('fonts/Satisfy/Satisfy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Infant';
+    src: url('fonts/Comorant/CormorantInfant-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Kaushan Script';
     src: url('fonts/Kaushan/KaushanScript-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('fonts/Dancing script/DancingScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body {
     font-family: $font-principal;
@@ -69,17 +94,20 @@ header {
                 align-items: center;
                 justify-content: center;
                 margin: 30px;
-                @include size(32%, 350px);
+                @include size(32%, 400px);
                 @include box-shadow(0, 1px, 10px, rgba(69,74,74,0.3));
             }
             a:nth-child(1){
-                @include style-menu($menu1, $font-principal);
+                @include style-menu($menu1, $font-menu-1);
             }
             a:nth-child(2){
-                @include style-menu($menu2, $font-principal);
+                @include style-menu($menu2, $font-menu-2);
+                h2 {
+                    text-decoration-color: linear-gradient(to right bottom, #da842b, #f8604c, #ff3a81, #e73ac1, #9360fe);
+                }
             }
             a:nth-child(3){
-                @include style-menu($menu3, $font-principal);
+                @include style-menu($menu3, $font-menu-3);
             }
             a:nth-child(4){
                 @include style-menu($menu4, $font-menu-4);
