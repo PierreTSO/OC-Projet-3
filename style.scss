@@ -23,6 +23,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url('fonts/Kaushan/KaushanScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: $font-principal;
     display: flex;
@@ -74,12 +82,12 @@ header {
                 @include style-menu($menu3, $font-principal);
             }
             a:nth-child(4){
-                @include style-menu($menu4, $font-principal);
+                @include style-menu($menu4, $font-menu-4);
             }
                 article h2, h3 {
-                    font-weight: 500;
-                    font-size: 1em;
-                }
+                     font-weight: 500;
+                     font-size: 1em;
+                 }
 }
 
 footer {
