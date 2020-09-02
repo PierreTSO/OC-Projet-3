@@ -99,23 +99,47 @@ header {
             }
             a:nth-child(1){
                 @include style-menu($menu1, $font-menu-1);
+                    h2 {
+                        @include gradient-text($font-color-menu1, $font-color-menu1);
+                    }
+                    h3 {
+                        color: $font-color-menu1;
+                        text-transform: uppercase;
+                    }
             }
             a:nth-child(2){
                 @include style-menu($menu2, $font-menu-2);
-                h2 {
-                    text-decoration-color: linear-gradient(to right bottom, #da842b, #f8604c, #ff3a81, #e73ac1, #9360fe);
-                }
+                    h2 {
+                        @include gradient-text($color-radient-first, $color-radient-second);
+                    }
+                    h3 {
+                        color: $color-radient-first;
+                    }
             }
             a:nth-child(3){
                 @include style-menu($menu3, $font-menu-3);
+                    h2 {
+                        @include gradient-text($color-radient-third, $color-radient-fourth);
+                    }
+                    h3 {
+                        color: $color-radient-fourth;
+                        font-family: $font-menu-4;
+                    }
             }
             a:nth-child(4){
                 @include style-menu($menu4, $font-menu-4);
+                    h2 {
+                        @include gradient-text($color-radient-fifth, $color-radient-sixth);
+                    }
+                    h3 {
+                        color: $color-radient-fifth;
+                    }
+
             }
                 article h2, h3 {
-                     font-weight: 500;
-                     font-size: 1em;
-                 }
+                     font-weight: 700;
+                     font-size: 1.2em;
+            }
 }
 
 footer {

@@ -133,6 +133,21 @@ header h1 {
   text-align: center;
 }
 
+#main a:nth-child(1) h2 {
+  background-color: #532b30;
+  background-image: linear-gradient(120deg, #532b30, #532b30);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#main a:nth-child(1) h3 {
+  color: #532b30;
+  text-transform: uppercase;
+}
+
 #main a:nth-child(2) {
   background-color: #fff5fe;
   font-family: "Cormorant Infant";
@@ -140,8 +155,17 @@ header h1 {
 }
 
 #main a:nth-child(2) h2 {
-  -webkit-text-decoration-color: linear-gradient(to right bottom, #da842b, #f8604c, #ff3a81, #e73ac1, #9360fe);
-          text-decoration-color: linear-gradient(to right bottom, #da842b, #f8604c, #ff3a81, #e73ac1, #9360fe);
+  background-color: #d88b45;
+  background-image: linear-gradient(120deg, #d88b45, #9360fe);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#main a:nth-child(2) h3 {
+  color: #d88b45;
 }
 
 #main a:nth-child(3) {
@@ -150,15 +174,44 @@ header h1 {
   text-align: center;
 }
 
+#main a:nth-child(3) h2 {
+  background-color: #1f45e1;
+  background-image: linear-gradient(120deg, #1f45e1, #178ffa);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#main a:nth-child(3) h3 {
+  color: #178ffa;
+  font-family: "Kaushan Script";
+}
+
 #main a:nth-child(4) {
   background-color: #fdfffd;
   font-family: "Kaushan Script";
   text-align: center;
 }
 
+#main a:nth-child(4) h2 {
+  background-color: #54a546;
+  background-image: linear-gradient(120deg, #54a546, #c2ff88);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#main a:nth-child(4) h3 {
+  color: #54a546;
+}
+
 #main article h2, #main h3 {
-  font-weight: 500;
-  font-size: 1em;
+  font-weight: 700;
+  font-size: 1.2em;
 }
 
 footer {
