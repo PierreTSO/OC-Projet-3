@@ -86,12 +86,12 @@ header h1 {
   margin: 4% auto;
 }
 
-#main {
+main {
   width: 60%;
   margin: auto auto;
 }
 
-#main nav {
+main nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +106,7 @@ header h1 {
       flex-wrap: wrap;
 }
 
-#main a {
+main a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,13 +127,13 @@ header h1 {
   box-shadow: 0 1px 10px rgba(69, 74, 74, 0.3);
 }
 
-#main a:nth-child(1) {
+main a:nth-child(1) {
   background-color: #fcdfdb;
   font-family: "Satisfy";
   text-align: center;
 }
 
-#main a:nth-child(1) #note-music, #main a:nth-child(1) h2 {
+main a:nth-child(1) #note-music, main a:nth-child(1) h2 {
   background-color: #532b30;
   background-image: linear-gradient(120deg, #532b30, #532b30);
   background-size: 100%;
@@ -143,18 +143,18 @@ header h1 {
   -moz-text-fill-color: transparent;
 }
 
-#main a:nth-child(1) h3 {
+main a:nth-child(1) h3 {
   color: #532b30;
   text-transform: uppercase;
 }
 
-#main a:nth-child(2) {
+main a:nth-child(2) {
   background-color: #fff5fe;
   font-family: "Cormorant Infant";
   text-align: center;
 }
 
-#main a:nth-child(2) h2 {
+main a:nth-child(2) h2 {
   background-color: #d88b45;
   background-image: linear-gradient(120deg, #d88b45, #9360fe);
   background-size: 100%;
@@ -164,17 +164,17 @@ header h1 {
   -moz-text-fill-color: transparent;
 }
 
-#main a:nth-child(2) h3 {
+main a:nth-child(2) h3 {
   color: #d88b45;
 }
 
-#main a:nth-child(3) {
+main a:nth-child(3) {
   background-color: #f9f9f9;
   font-family: "Dancing Script";
   text-align: center;
 }
 
-#main a:nth-child(3) h2 {
+main a:nth-child(3) h2 {
   background-color: #1f45e1;
   background-image: linear-gradient(120deg, #1f45e1, #178ffa);
   background-size: 100%;
@@ -184,18 +184,18 @@ header h1 {
   -moz-text-fill-color: transparent;
 }
 
-#main a:nth-child(3) h3 {
+main a:nth-child(3) h3 {
   color: #178ffa;
   font-family: "Kaushan Script";
 }
 
-#main a:nth-child(4) {
+main a:nth-child(4) {
   background-color: #fdfffd;
   font-family: "Kaushan Script";
   text-align: center;
 }
 
-#main a:nth-child(4) h2 {
+main a:nth-child(4) h2 {
   background-color: #54a546;
   background-image: linear-gradient(120deg, #54a546, #c2ff88);
   background-size: 100%;
@@ -205,13 +205,24 @@ header h1 {
   -moz-text-fill-color: transparent;
 }
 
-#main a:nth-child(4) h3 {
+main a:nth-child(4) h3 {
   color: #54a546;
 }
 
-#main article #note-music, #main h2, #main h3 {
+main article #note-music, main h2, main h3 {
   font-weight: 700;
   font-size: 1.6em;
+}
+
+aside {
+  border-radius: 17px 17px 17px 17px;
+  -moz-border-radius: 17px 17px 17px 17px;
+  -webkit-border-radius: 17px 17px 17px 17px;
+  border: 0px none #579c87;
+  background-color: #579c87;
+  margin: 2% auto;
+  color: #fdcb46;
+  padding: 1px 100px;
 }
 
 footer {

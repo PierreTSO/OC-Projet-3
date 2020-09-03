@@ -79,7 +79,7 @@ header {
         }
 }
 
-#main {
+main {
     width: 60%;
     margin: auto auto;
         nav {
@@ -140,6 +140,13 @@ header {
                      font-weight: 700;
                      font-size: 1.6em;
             }
+}
+
+aside {
+        @include border;
+        @include margin;
+        color: $secondary-color;
+        padding: 1px 100px;
 }
 
 footer {
