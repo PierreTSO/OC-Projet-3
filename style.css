@@ -133,7 +133,7 @@ header h1 {
   text-align: center;
 }
 
-#main a:nth-child(1) h2 {
+#main a:nth-child(1) #note-music, #main a:nth-child(1) h2 {
   background-color: #532b30;
   background-image: linear-gradient(120deg, #532b30, #532b30);
   background-size: 100%;
@@ -209,9 +209,9 @@ header h1 {
   color: #54a546;
 }
 
-#main article h2, #main h3 {
+#main article #note-music, #main h2, #main h3 {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 footer {

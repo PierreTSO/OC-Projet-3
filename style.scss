@@ -99,7 +99,7 @@ header {
             }
             a:nth-child(1){
                 @include style-menu($menu1, $font-menu-1);
-                    h2 {
+                    #note-music, h2 {
                         @include gradient-text($font-color-menu1, $font-color-menu1);
                     }
                     h3 {
@@ -136,9 +136,9 @@ header {
                     }
 
             }
-                article h2, h3 {
+                article #note-music, h2, h3 {
                      font-weight: 700;
-                     font-size: 1.2em;
+                     font-size: 1.6em;
             }
 }
 
