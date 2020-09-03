@@ -101,48 +101,55 @@ main {
                 @include style-menu($menu1, $font-menu-1);
                     #note-music {
                         @include gradient-text($color-radient-note-first, $color-radient-note-second);
+                        @include size-fonts(700, 2.5em);
                     }
                     h2 {
                         @include gradient-text($font-color-menu1, $font-color-menu1);
+                        @include size-fonts(700, 1.2em);
                     }
                     h3 {
                         color: $font-color-menu1;
                         text-transform: uppercase;
+                        @include size-fonts(700, 1.8em);
                     }
             }
             a:nth-child(2){
                 @include style-menu($menu2, $font-menu-2);
                     h2 {
                         @include gradient-text($color-radient-first, $color-radient-second);
+                        @include size-fonts(700, 1.4em);
                     }
                     h3 {
                         color: $color-radient-first;
+                        @include size-fonts(700, 1.8em);
                     }
             }
             a:nth-child(3){
                 @include style-menu($menu3, $font-menu-3);
                     h2 {
                         @include gradient-text($color-radient-third, $color-radient-fourth);
+                        @include size-fonts(700, 1.4em);
                     }
                     h3 {
                         color: $color-radient-fourth;
                         font-family: $font-menu-4;
+                        @include size-fonts(700, 1.8em);
                     }
             }
             a:nth-child(4){
                 @include style-menu($menu4, $font-menu-4);
                     h2 {
                         @include gradient-text($color-radient-fifth, $color-radient-sixth);
+                        @include size-fonts(700, 1.4em);
                     }
                     h3 {
                         color: $color-radient-fifth;
+                        @include size-fonts(700, 1.8em);
                     }
-
             }
-                article #note-music, h2, h3 {
-                     font-weight: 700;
-                     font-size: 1.6em;
-            }
+                article {
+                    width: 100%;
+                }
 }
 
 aside {
