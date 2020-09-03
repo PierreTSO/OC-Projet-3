@@ -79,11 +79,11 @@ header {
   background-color: #579c87;
 }
 
-header h1 {
+header a h1 {
   font-weight: 800;
   font-size: 3.5em;
   color: #fdcb46;
-  margin: 4% auto;
+  margin: 15% auto;
 }
 
 main {
@@ -133,7 +133,17 @@ main a:nth-child(1) {
   text-align: center;
 }
 
-main a:nth-child(1) #note-music, main a:nth-child(1) h2 {
+main a:nth-child(1) #note-music {
+  background-color: #f16e72;
+  background-image: linear-gradient(120deg, #f16e72, #f78f6a);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+main a:nth-child(1) h2 {
   background-color: #532b30;
   background-image: linear-gradient(120deg, #532b30, #532b30);
   background-size: 100%;

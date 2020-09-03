@@ -71,11 +71,11 @@ header {
     width: 100%;
     margin: 0;
     background-color: $primary-color;
-        h1 {
+        a h1 {
             font-weight: 800;
             font-size: 3.5em;
             color: $secondary-color;
-            margin: 4% auto;
+            margin: 15% auto;
         }
 }
 
@@ -99,7 +99,10 @@ main {
             }
             a:nth-child(1){
                 @include style-menu($menu1, $font-menu-1);
-                    #note-music, h2 {
+                    #note-music {
+                        @include gradient-text($color-radient-note-first, $color-radient-note-second);
+                    }
+                    h2 {
                         @include gradient-text($font-color-menu1, $font-color-menu1);
                     }
                     h3 {
