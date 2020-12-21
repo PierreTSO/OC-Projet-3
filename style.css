@@ -66,6 +66,8 @@ body {
 
 body a:link {
   text-decoration: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
 }
 
 header {
@@ -252,8 +254,11 @@ aside {
   border: 0px none #579c87;
   background-color: #579c87;
   margin: 2% auto;
-  color: #fdcb46;
   padding: 1px 100px;
+}
+
+aside a:link {
+  color: #fdcb46;
 }
 
 footer {
@@ -270,7 +275,7 @@ footer {
   height: 10%;
 }
 
-footer span {
+footer a:link {
   font-size: 1.5em;
   color: #fdcb46;
   padding: 2% 2%;

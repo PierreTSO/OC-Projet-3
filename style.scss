@@ -64,6 +64,7 @@ body {
     margin: 0;
         a:link {
             text-decoration: none;
+            text-decoration-color: none;
         }
 }
 
@@ -158,8 +159,10 @@ main {
 aside {
         @include border;
         @include margin;
-        color: $secondary-color;
         padding: 1px 100px;
+            a:link {
+                color: $secondary-color;
+            }
 }
 
 footer {
@@ -168,7 +171,7 @@ footer {
     justify-content: space-between;
     background-color: $primary-color;
     height: 10%;
-    span {
+    a:link {
         font-size: 1.5em;
         color: $secondary-color;
         padding: 2% 2%;
