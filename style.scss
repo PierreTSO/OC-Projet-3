@@ -176,5 +176,12 @@ footer {
         font-size: 1.5em;
         color: $secondary-color;
         padding: 2% 2%;
+        text-decoration: none;
     }
+        :hover {
+            color: $secondary-color;
+        }
+        :visited {
+            color: $secondary-color;
+        }
 }

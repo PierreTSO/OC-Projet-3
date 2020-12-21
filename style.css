@@ -283,5 +283,14 @@ footer a:link {
   font-size: 1.5em;
   color: #fdcb46;
   padding: 2% 2%;
+  text-decoration: none;
+}
+
+footer :hover {
+  color: #fdcb46;
+}
+
+footer :visited {
+  color: #fdcb46;
 }
 /*# sourceMappingURL=style.css.map */
