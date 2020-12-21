@@ -153,7 +153,7 @@ main {
             }
             a:nth-child(5){
                 @include border;
-                @include size(12%, 60px);
+                @include size(18%, 60px);
                 margin-bottom: 45px;
                 padding: 1px 100px;
                     h4 {
