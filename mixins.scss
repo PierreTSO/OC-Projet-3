@@ -48,3 +48,7 @@
     font-weight: $weight;
     font-size: $size;
 }
+
+@mixin style-note-music {
+    transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
+}

@@ -105,11 +105,13 @@ main {
                 @include style-menu($menu1, $font-menu-1);
                     #note-music {
                         @include gradient-text($color-radient-note-first, $color-radient-note-second);
-                        @include size-fonts(700, 2.5em);
+                        @include size-fonts(400, 1.5em);       
+                        @include style-note-music;
                     }
                     h2 {
                         @include gradient-text($font-color-menu1, $font-color-menu1);
                         @include size-fonts(700, 1.2em);
+                        margin-top: 0;
                     }
                     h3 {
                         color: $font-color-menu1;
