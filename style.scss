@@ -151,18 +151,19 @@ main {
                         @include size-fonts(700, 1.8em);
                     }
             }
+            a:nth-child(5){
+                @include border;
+                @include size(12%, 60px);
+                margin-bottom: 45px;
+                padding: 1px 100px;
+                    h4 {
+                        color: $secondary-color;
+                        @include size-fonts(400, 1.6em);
+                    }
+            }      
                 article {
                     width: 100%;
                 }
-}
-
-aside {
-        @include border;
-        @include margin;
-        padding: 1px 100px;
-            a:link {
-                color: $secondary-color;
-            }
 }
 
 footer {
