@@ -156,17 +156,46 @@ main {
             a:nth-child(5){
                 @include border;
                 @include size(18%, 60px);
+                align-items: center;
                 margin-bottom: 45px;
                 padding: 1px 100px;
                     h4 {
                         color: $secondary-color;
                         @include size-fonts(400, 1.6em);
+                        margin: 0;
                     }
+                    .loading-dots > div{
+                        width: 8px;
+                        height: 8px;
+                        background-color: $secondary-color;
+                        border-radius: 50%;
+                        display: inline-block;
+                        animation: 1s bounce infinite ease-in-out both;
+                    }
+                    .loading-dots .bounce{
+                        animation-delay: -0.35s;    
+                    }
+
+                    .loading-dots .bounce2{
+                        animation-delay: -0.15s;
+                    }
+
+                    @keyframes bounce {
+                        0%{
+                            transform: scale(0);
+                        }
+                        40%{
+                            transform: scale(1);
+                        }
+                    }
+
+            }
+            article {
+                width: 100%;
+            }    
             }      
-                article {
-                    width: 100%;
-                }
-}
+                      
+
 
 footer {
     display: flex;

@@ -80,5 +80,5 @@
 @mixin wiggle($str) {
     -webkit-animation: #{$str};
     animation: #{$str};
-  }
+}
   
