@@ -182,6 +182,8 @@ footer {
     }
         :hover {
             color: $secondary-color;
+            @include keyframes(wiggle);
+            @include wiggle('wiggle 1s infinite');
         }
         :visited {
             color: $secondary-color;

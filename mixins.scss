@@ -59,3 +59,26 @@
 @mixin style-note-music {
     transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
 }
+
+@mixin keyframes($wiggle) {
+    @-webkit-keyframes #{$wiggle} {
+        0% { transform: rotate(0deg); }
+        80% { transform: rotate(0deg); }
+        85% { transform: rotate(5deg); }
+        95% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+    }
+    @keyframes #{$wiggle} {
+        0% { transform: rotate(0deg); }
+        80% { transform: rotate(0deg); }
+        85% { transform: rotate(5deg); }
+        95% { transform: rotate(-5deg); }
+        100% { transform: rotate(0deg); }
+    }
+}
+
+@mixin wiggle($str) {
+    -webkit-animation: #{$str};
+    animation: #{$str};
+  }
+  
