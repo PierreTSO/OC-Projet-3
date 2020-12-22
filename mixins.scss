@@ -44,6 +44,13 @@
         -moz-text-fill-color: transparent;
 }
 
+@mixin gradient-music {
+        color: #c31f2e;
+        background: -webkit-linear-gradient(321deg, red, #ffc3af);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
 @mixin size-fonts($weight, $size){
     font-weight: $weight;
     font-size: $size;

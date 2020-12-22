@@ -140,17 +140,14 @@ main a:nth-child(1) {
 }
 
 main a:nth-child(1) #note-music {
-  background-color: #f16e72;
-  background-image: linear-gradient(120deg, #f16e72, #f78f6a);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   font-weight: 400;
   font-size: 1.5em;
   -webkit-transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
           transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
+  color: #c31f2e;
+  background: -webkit-linear-gradient(321deg, red, #ffc3af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 main a:nth-child(1) h2 {
