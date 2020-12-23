@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,UAAU,CAAV,MAAU;EACN,EAAE,EAAE,GAAG,EAAE,IAAI;IACT,SAAS,EAAE,QAAQ;;EAEvB,GAAG;IACC,SAAS,EAAE,QAAQ",
     "sources": [
         "keyframes.scss"
     ],
