@@ -157,7 +157,8 @@ main {
             a:nth-child(5){
                 @include border;
                 @include size(18%, 60px);
-                align-items: center;
+                display: flex;
+                flex-direction: row;
                 margin-bottom: 45px;
                 padding: 1px 100px;
                     h4 {
@@ -165,20 +166,32 @@ main {
                         @include size-fonts(400, 1.6em);
                         margin: 0;
                     }
+
+                    .loading-dots{
+                        display: flex;
+                        flex-direction: row;
+                        padding-left: 3px;
+                        padding-top: 11px;
+                    }
                     .loading-dots > div{
-                        width: 8px;
-                        height: 8px;
+                        width: 7px;
+                        height: 7px;
                         background-color: $secondary-color;
                         border-radius: 50%;
-                        display: inline-block;
-                        animation: 1s bounce infinite ease-in-out both;
+                        animation: 1.5s bounce infinite ease-in-out both;
                     }
                     .loading-dots .bounce{
                         animation-delay: -0.35s;    
+                        margin-left: 3px;
                     }
 
                     .loading-dots .bounce2{
                         animation-delay: -0.15s;
+                        margin-left: 3px;
+                    }
+
+                    .loading-dots .bounce3{
+                        margin-left: 3px;
                     }
 
                     @keyframes bounce {

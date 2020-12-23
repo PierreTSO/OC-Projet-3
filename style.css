@@ -252,9 +252,13 @@ main a:nth-child(5) {
   background-color: #579c87;
   width: 18%;
   height: 60px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-bottom: 45px;
   padding: 1px 100px;
 }
@@ -266,24 +270,41 @@ main a:nth-child(5) h4 {
   margin: 0;
 }
 
+main a:nth-child(5) .loading-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 3px;
+  padding-top: 11px;
+}
+
 main a:nth-child(5) .loading-dots > div {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   background-color: #fdcb46;
   border-radius: 50%;
-  display: inline-block;
-  -webkit-animation: 1s bounce infinite ease-in-out both;
-          animation: 1s bounce infinite ease-in-out both;
+  -webkit-animation: 1.5s bounce infinite ease-in-out both;
+          animation: 1.5s bounce infinite ease-in-out both;
 }
 
 main a:nth-child(5) .loading-dots .bounce {
   -webkit-animation-delay: -0.35s;
           animation-delay: -0.35s;
+  margin-left: 3px;
 }
 
 main a:nth-child(5) .loading-dots .bounce2 {
   -webkit-animation-delay: -0.15s;
           animation-delay: -0.15s;
+  margin-left: 3px;
+}
+
+main a:nth-child(5) .loading-dots .bounce3 {
+  margin-left: 3px;
 }
 
 @-webkit-keyframes bounce {
