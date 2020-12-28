@@ -96,6 +96,7 @@ header a h1 {
 main {
   width: 60%;
   margin: 2% auto;
+  padding-bottom: 5%;
 }
 
 main nav {
@@ -259,7 +260,6 @@ main a:nth-child(5) {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 45px;
   padding: 1px 100px;
 }
 
@@ -411,5 +411,28 @@ footer :hover {
 
 footer :visited {
   color: #fdcb46;
+}
+
+.main-mentionlegales {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  color: #fdcb46;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  color: #579c87;
+}
+
+p {
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+li {
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */

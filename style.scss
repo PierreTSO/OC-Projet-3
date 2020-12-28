@@ -89,6 +89,7 @@ header {
 main {
     width: 60%;
     margin: 2% auto;
+    padding-bottom: 5%;
 
     nav {
         display: flex;
@@ -177,7 +178,6 @@ main {
         @include size(18%, 60px);
         display: flex;
         flex-direction: row;
-        margin-bottom: 45px;
         padding: 1px 100px;
 
         h4 {
@@ -261,3 +261,25 @@ footer {
         color: $secondary-color;
     }
 }
+
+// PAGE MENTIONS LEGALES
+
+.main-mentionlegales {
+    font-family: 'Montserrat';
+}
+    h1 {
+        color: $secondary-color;
+        text-align: center;
+        
+    }
+    h2 {
+        font-weight: 400;
+        color: $primary-color;
+    }
+    p {
+        text-align: justify;
+        font-size: 0.8em;
+    }
+    li {
+        font-size: 0.8em;
+    }
