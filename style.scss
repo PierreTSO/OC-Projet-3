@@ -63,10 +63,11 @@ body {
     width: 100%;
     margin: 0;
     position: relative;
-        a:link {
-            text-decoration: none;
-            text-decoration-color: none;
-        }
+
+    a:link {
+        text-decoration: none;
+        text-decoration-color: none;
+    }
 }
 
 header {
@@ -76,139 +77,161 @@ header {
     width: 100%;
     margin: 0;
     background-color: $primary-color;
-        a h1 {
-            font-weight: 800;
-            font-size: 3.5em;
-            color: $secondary-color;
-            margin: 15% auto;
-        }
+
+    a h1 {
+        font-weight: 800;
+        font-size: 3.5em;
+        color: $secondary-color;
+        margin: 15% auto;
+    }
 }
 
 main {
     width: 60%;
     margin: 2% auto;
-        nav {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        @include size(32%, 400px);
+        @include box-shadow(0, 1px, 10px, rgba(69, 74, 74, 0.3));
+    }
+
+    a:nth-child(1) {
+        @include style-menu($menu1, $font-menu-1);
+
+        #note-music {
+            @include size-fonts(400, 1.5em);
+            @include style-note-music;
+            @include gradient-music;
+        }
+
+        h2 {
+            @include gradient-text($font-color-menu1, $font-color-menu1);
+            @include size-fonts(700, 1.2em);
+            margin-top: 0;
+        }
+
+        h3 {
+            color: $font-color-menu1;
+            text-transform: uppercase;
+            @include size-fonts(700, 1.8em);
+        }
+    }
+
+    a:nth-child(2) {
+        @include style-menu($menu2, $font-menu-2);
+
+        h2 {
+            @include gradient-text($color-radient-first, $color-radient-second);
+            @include size-fonts(700, 1.4em);
+        }
+
+        h3 {
+            color: $color-radient-first;
+            @include size-fonts(700, 1.8em);
+        }
+    }
+
+    a:nth-child(3) {
+        @include style-menu($menu3, $font-menu-3);
+
+        h2 {
+            @include gradient-text($color-radient-third, $color-radient-fourth);
+            @include size-fonts(700, 1.4em);
+        }
+
+        h3 {
+            color: $color-radient-fourth;
+            font-family: $font-menu-4;
+            @include size-fonts(700, 1.8em);
+        }
+    }
+
+    a:nth-child(4) {
+        @include style-menu($menu4, $font-menu-4);
+
+        h2 {
+            @include gradient-text($color-radient-fifth, $color-radient-sixth);
+            @include size-fonts(700, 1.4em);
+        }
+
+        h3 {
+            color: $color-radient-fifth;
+            @include size-fonts(700, 1.8em);
+        }
+    }
+
+    a:nth-child(5) {
+        @include border;
+        @include size(18%, 60px);
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 45px;
+        padding: 1px 100px;
+
+        h4 {
+            color: $secondary-color;
+            @include size-fonts(400, 1.6em);
+            margin: 0;
+        }
+
+        .loading-dots {
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
+            padding-left: 3px;
+            padding-top: 11px;
         }
-            a {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                margin: 10px;
-                @include size(32%, 400px);
-                @include box-shadow(0, 1px, 10px, rgba(69,74,74,0.3));
-            }
-            a:nth-child(1){
-                @include style-menu($menu1, $font-menu-1);
-                    #note-music {
-                        @include size-fonts(400, 1.5em);       
-                        @include style-note-music;
-                        @include gradient-music;
-                    }
-                    h2 {
-                        @include gradient-text($font-color-menu1, $font-color-menu1);
-                        @include size-fonts(700, 1.2em);
-                        margin-top: 0;
-                    }
-                    h3 {
-                        color: $font-color-menu1;
-                        text-transform: uppercase;
-                        @include size-fonts(700, 1.8em);
-                    }
-            }
-            a:nth-child(2){
-                @include style-menu($menu2, $font-menu-2);
-                    h2 {
-                        @include gradient-text($color-radient-first, $color-radient-second);
-                        @include size-fonts(700, 1.4em);
-                    }
-                    h3 {
-                        color: $color-radient-first;
-                        @include size-fonts(700, 1.8em);
-                    }
-            }
-            a:nth-child(3){
-                @include style-menu($menu3, $font-menu-3);
-                    h2 {
-                        @include gradient-text($color-radient-third, $color-radient-fourth);
-                        @include size-fonts(700, 1.4em);
-                    }
-                    h3 {
-                        color: $color-radient-fourth;
-                        font-family: $font-menu-4;
-                        @include size-fonts(700, 1.8em);
-                    }
-            }
-            a:nth-child(4){
-                @include style-menu($menu4, $font-menu-4);
-                    h2 {
-                        @include gradient-text($color-radient-fifth, $color-radient-sixth);
-                        @include size-fonts(700, 1.4em);
-                    }
-                    h3 {
-                        color: $color-radient-fifth;
-                        @include size-fonts(700, 1.8em);
-                    }
-            }
-            a:nth-child(5){
-                @include border;
-                @include size(18%, 60px);
-                display: flex;
-                flex-direction: row;
-                margin-bottom: 45px;
-                padding: 1px 100px;
-                    h4 {
-                        color: $secondary-color;
-                        @include size-fonts(400, 1.6em);
-                        margin: 0;
-                    }
 
-                    .loading-dots{
-                        display: flex;
-                        flex-direction: row;
-                        padding-left: 3px;
-                        padding-top: 11px;
-                    }
-                    .loading-dots > div{
-                        width: 7px;
-                        height: 7px;
-                        background-color: $secondary-color;
-                        border-radius: 50%;
-                        animation: 1.5s bounce infinite ease-in-out both;
-                    }
-                    .loading-dots .bounce{
-                        animation-delay: -0.35s;    
-                        margin-left: 3px;
-                    }
+        .loading-dots>div {
+            width: 7px;
+            height: 7px;
+            background-color: $secondary-color;
+            border-radius: 50%;
+            animation: 1.5s bounce infinite ease-in-out both;
+        }
 
-                    .loading-dots .bounce2{
-                        animation-delay: -0.15s;
-                        margin-left: 3px;
-                    }
+        .loading-dots .bounce {
+            animation-delay: -0.35s;
+            margin-left: 3px;
+        }
 
-                    .loading-dots .bounce3{
-                        margin-left: 3px;
-                    }
+        .loading-dots .bounce2 {
+            animation-delay: -0.15s;
+            margin-left: 3px;
+        }
 
-                    @keyframes bounce {
-                        0%{
-                            transform: scale(0);
-                        }
-                        40%{
-                            transform: scale(1);
-                        }
-                    }
+        .loading-dots .bounce3 {
+            margin-left: 3px;
+        }
 
+        @keyframes bounce {
+            0% {
+                transform: scale(0);
             }
-            article {
-                width: 100%;
-            }    
-            }      
-                      
+
+            40% {
+                transform: scale(1);
+            }
+        }
+
+    }
+
+    article {
+        width: 100%;
+    }
+}
+
 
 
 footer {
@@ -220,18 +243,21 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
     a:link {
         font-size: 1.5em;
         color: $secondary-color;
         padding: 2% 2%;
         text-decoration: none;
     }
-        :hover {
-            color: $secondary-color;
-            @include keyframes(wiggle);
-            @include wiggle('wiggle 1s infinite');
-        }
-        :visited {
-            color: $secondary-color;
-        }
+
+    :hover {
+        color: $secondary-color;
+        @include keyframes(wiggle);
+        @include wiggle('wiggle 1s infinite');
+    }
+
+    :visited {
+        color: $secondary-color;
+    }
 }

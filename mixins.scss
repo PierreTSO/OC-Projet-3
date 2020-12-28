@@ -81,4 +81,8 @@
     -webkit-animation: #{$str};
     animation: #{$str};
 }
+
+@mixin zoommenu {
+    transform: scale(1);
+}
   
