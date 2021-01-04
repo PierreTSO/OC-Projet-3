@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: 'Montserrat';
   src: url("fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
@@ -50,4 +51,9 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* mobile styles */
+/* small tablet styles */
+/* large tablets & laptop styles */
+/* desktop styles */
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,8 @@
 @import "mixins.scss";
 
 
+/* Fonts */
+
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
@@ -55,3 +57,19 @@
     font-display: swap;
 }
 
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+
+}
+
+/* large tablets & laptop styles */
+@media screen and (min-width: 960px){
+    
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+    
+}
