@@ -52,6 +52,17 @@
   font-display: swap;
 }
 
+/* Reset */
+body, a, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* mobile styles */
 /* small tablet styles */
 /* large tablets & laptop styles */
