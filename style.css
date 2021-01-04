@@ -64,6 +64,23 @@ li {
 }
 
 /* mobile styles */
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  background-color: #579c87;
+}
+
+h1 {
+  text-align: center;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  color: #fdcb46;
+  font-family: "Montserrat";
+}
+
 /* small tablet styles */
 /* large tablets & laptop styles */
 /* desktop styles */
