@@ -5,10 +5,10 @@
     margin: 5% 5%;
 }
 
-@mixin border {
-    border-radius: 17px 17px 17px 17px;
-    -moz-border-radius: 17px 17px 17px 17px;
-    -webkit-border-radius: 17px 17px 17px 17px;
+@mixin border ($corner1, $corner2, $corner3, $corner4) {
+    border-radius: $corner1 $corner2 $corner3 $corner4;
+    -moz-border-radius: $corner1 $corner2 $corner3 $corner4;
+    -webkit-border-radius: $corner1 $corner2 $corner3 $corner4;
     border: 0px none $primary-color;
     background-color: $primary-color;
 }

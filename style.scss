@@ -212,9 +212,23 @@ main {
         }
             
 
-        div {
-            grid-column: 3/11; /* Mise en page de l'élément */
+        #bouton-prochainement{
+            grid-column: 5/9; /* Mise en page de l'élément */
             text-align: center; /* Mise en page de l'élément */
+            background-color: $primary-color;
+            @include border(12px, 12px, 12px, 12px);
+            margin-bottom: 20px;
+
+                a {
+                    color: $secondary-color;
+
+                        h3 {
+                            font-size: 1.2em;
+                            font-weight: 400;
+                        }
+                }
+
+
         }
 
 

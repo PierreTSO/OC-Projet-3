@@ -300,13 +300,29 @@ main nav #menu4 h3 {
   /* Taille Police */
 }
 
-main div {
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 8;
-  grid-column: 3/11;
+main #bouton-prochainement {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-column: 5/9;
   /* Mise en page de l'élément */
   text-align: center;
   /* Mise en page de l'élément */
+  background-color: #579c87;
+  border-radius: 12px 12px 12px 12px;
+  -moz-border-radius: 12px 12px 12px 12px;
+  -webkit-border-radius: 12px 12px 12px 12px;
+  border: 0px none #579c87;
+  background-color: #579c87;
+  margin-bottom: 20px;
+}
+
+main #bouton-prochainement a {
+  color: #fdcb46;
+}
+
+main #bouton-prochainement a h3 {
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 /* ---------------------------------------- */
