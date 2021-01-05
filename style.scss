@@ -88,6 +88,7 @@ li {
 
 body {
     font-family: $font-principal; /* Font principal du site */
+    font-size: 12px;
 }
 
 /* ---------------------------------------- */
@@ -104,6 +105,7 @@ header {
         grid-column: 2/3; /* Mise en page de l'élément */
         color: $secondary-color; 
         font-family: $font-principal;
+        font-size: 3em;
     }
 }
 
@@ -117,9 +119,98 @@ main {
     grid-template-columns: repeat(12, 1fr); /* Mise en page de l'élément */
 
         nav {
-            grid-column: 3/11; /* Mise en page de l'élément */
+            grid-column: 4/10; /* Mise en page de l'élément */
             text-align: center; /* Mise en page de l'élément */
+
+                #menu1{
+                    @include style-menu($menu1, $font-menu-1); /* Background et Font */
+                    @include box-shadow; /* Ombre sur boîte Menu */
+                    display: flex; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    align-items: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    height: 300px; /* Mise en forme des box Menus */
+                    margin: 20px; /* Mise en forme des box Menus */
+
+                    
+                        h2 {
+                            color: $font-color-menu1;
+                            font-size: 1.5em;
+                            
+                        }
+                        h3 {
+                            color: $font-color-menu1;
+                            
+                        }
+                }
+
+                #menu2{
+                    @include style-menu($menu2, $font-menu-2); /* Background et Font */
+                    @include box-shadow; /* Ombre sur boîte Menu */
+                    display: flex; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    align-items: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    height: 300px; /* Mise en forme des box Menus */
+                    margin: 20px; /* Mise en forme des box Menus */
+                    
+                       h2 {
+                            @include gradient-text($color-radient-first, $color-radient-second); /* Dégrader couleur texte */
+                            font-size: 1.5em; /* Taille Police */
+                            
+                       }
+                       h3 {
+                            color: $color-radient-first;
+                            
+                       }
+                }
+
+                #menu3{
+                    @include style-menu($menu3, $font-menu-3); /* Background et Font */
+                    @include box-shadow; /* Ombre sur boîte Menu */
+                    display: flex; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    align-items: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    height: 300px; /* Mise en forme des box Menus */
+                    margin: 20px; /* Mise en forme des box Menus */
+                    
+                        h2 {
+                            @include gradient-text($color-radient-third, $color-radient-fourth); /* Dégrader couleur texte */
+                            /* Demander à Séverine pour le début du H2 est coupé */
+                            font-size: 1.5em; /* Taille Police */
+                            font-weight: 500; /* Taille Police */
+                            
+                        }
+                         h3 {
+                            color: $color-radient-fourth;
+                            font-family: $font-menu-4;
+                            font-weight: 500; /* Taille Police */
+                            
+                        }
+                }
+
+                #menu4{
+                    @include style-menu($menu4, $font-menu-4); /* Background et Font */
+                    @include box-shadow; /* Ombre sur boîte Menu */
+                    display: flex; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    align-items: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
+                    height: 300px; /* Mise en forme des box Menus */
+                    margin: 20px; /* Mise en forme des box Menus */
+                    
+                        h2 {
+                            @include gradient-text($color-radient-fifth, $color-radient-sixth); /* Dégrader couleur texte */
+                            font-size: 1.5em; /* Taille Police */
+                            
+                        }
+                         h3 {
+                            color: $color-radient-fifth;
+                            font-family: $font-menu-4;
+                            font-weight: 500; /* Taille Police */
+                            
+                        }
+                }
+
         }
+            
 
         div {
             grid-column: 3/11; /* Mise en page de l'élément */
