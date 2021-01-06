@@ -459,4 +459,125 @@ footer a {
   text-align: justify;
   margin-bottom: 5px;
 }
+
+/* ---------------------------------------- */
+/* ==               MENU 1                  */
+/*---------------------------------------- */
+#main-menu1 {
+  width: 80%;
+  margin: 10px auto;
+  background-color: #fcdfdb;
+  font-family: "Satisfy";
+}
+
+#main-menu1 #titre-menu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-menu1 #titre-menu1 #note-music {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 5em;
+  height: 65px;
+}
+
+#main-menu1 #titre-menu1 h2 {
+  text-align: center;
+  margin: 0;
+  color: #532b30;
+}
+
+#main-menu1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-menu1 div h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #532b30;
+  font-size: 1.5em;
+}
+
+#main-menu1 .carte-menu1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+#main-menu1 .carte-menu1 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0;
+  color: #532b30;
+}
+
+#main-menu1 .carte-menu1 .prix {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 600;
+  color: #532b30;
+}
+
+#main-menu1 #dessert-menu1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+#main-menu1 #dessert-menu1 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  overflow: hidden;
+  margin: 0;
+  padding: 1%;
+  color: #532b30;
+}
+
+#main-menu1 #fin-menu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+#main-menu1 #fin-menu1 #note-music {
+  font-size: 3em;
+}
+
+#main-menu1 #fin-menu1 h2 {
+  color: #532b30;
+}
 /*# sourceMappingURL=style.css.map */
