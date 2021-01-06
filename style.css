@@ -109,7 +109,7 @@ header h1 {
 /* ---------------------------------------- */
 /* ==              MAIN              */
 /*---------------------------------------- */
-main {
+#main-homepage {
   display: -ms-grid;
   display: grid;
   /* Mise en page de l'élément */
@@ -118,7 +118,7 @@ main {
   /* Mise en page de l'élément */
 }
 
-main nav {
+#main-homepage nav {
   -ms-grid-column: 4;
   -ms-grid-column-span: 6;
   grid-column: 4/10;
@@ -127,7 +127,7 @@ main nav {
   /* Mise en page de l'élément */
 }
 
-main nav #menu1 {
+#main-homepage nav #menu1 {
   background-color: #fcdfdb;
   font-family: "Satisfy";
   text-align: center;
@@ -153,16 +153,33 @@ main nav #menu1 {
   /* Mise en forme des box Menus */
 }
 
-main nav #menu1 h2 {
+#main-homepage nav #menu1 #note-music {
+  background-color: #8f1e29;
+  background-image: linear-gradient(120deg, #8f1e29, #fcb095);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* Voir dégradé note music avec Séverine */
+  font-size: 2em;
+  margin-bottom: 0;
+  -webkit-transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
+          transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
+  /* Voir cisaillement note music avec Séverine */
+}
+
+#main-homepage nav #menu1 h2 {
   color: #532b30;
   font-size: 1.5em;
+  margin-top: 0;
 }
 
-main nav #menu1 h3 {
+#main-homepage nav #menu1 h3 {
   color: #532b30;
 }
 
-main nav #menu2 {
+#main-homepage nav #menu2 {
   background-color: #fff5fe;
   font-family: "Cormorant Infant";
   text-align: center;
@@ -188,7 +205,7 @@ main nav #menu2 {
   /* Mise en forme des box Menus */
 }
 
-main nav #menu2 h2 {
+#main-homepage nav #menu2 h2 {
   background-color: #d88b45;
   background-image: linear-gradient(120deg, #d88b45, #9360fe);
   background-size: 100%;
@@ -201,11 +218,11 @@ main nav #menu2 h2 {
   /* Taille Police */
 }
 
-main nav #menu2 h3 {
+#main-homepage nav #menu2 h3 {
   color: #d88b45;
 }
 
-main nav #menu3 {
+#main-homepage nav #menu3 {
   background-color: #f9f9f9;
   font-family: "Dancing Script";
   text-align: center;
@@ -231,7 +248,7 @@ main nav #menu3 {
   /* Mise en forme des box Menus */
 }
 
-main nav #menu3 h2 {
+#main-homepage nav #menu3 h2 {
   background-color: #1f45e1;
   background-image: linear-gradient(120deg, #1f45e1, #178ffa);
   background-size: 100%;
@@ -247,14 +264,14 @@ main nav #menu3 h2 {
   /* Taille Police */
 }
 
-main nav #menu3 h3 {
+#main-homepage nav #menu3 h3 {
   color: #178ffa;
   font-family: "Kaushan Script";
   font-weight: 500;
   /* Taille Police */
 }
 
-main nav #menu4 {
+#main-homepage nav #menu4 {
   background-color: #fdfffd;
   font-family: "Kaushan Script";
   text-align: center;
@@ -280,7 +297,7 @@ main nav #menu4 {
   /* Mise en forme des box Menus */
 }
 
-main nav #menu4 h2 {
+#main-homepage nav #menu4 h2 {
   background-color: #54a546;
   background-image: linear-gradient(120deg, #54a546, #c2ff88);
   background-size: 100%;
@@ -293,14 +310,14 @@ main nav #menu4 h2 {
   /* Taille Police */
 }
 
-main nav #menu4 h3 {
+#main-homepage nav #menu4 h3 {
   color: #54a546;
   font-family: "Kaushan Script";
   font-weight: 500;
   /* Taille Police */
 }
 
-main #bouton-prochainement {
+#main-homepage #bouton-prochainement {
   -ms-grid-column: 5;
   -ms-grid-column-span: 4;
   grid-column: 5/9;
@@ -308,22 +325,29 @@ main #bouton-prochainement {
   text-align: center;
   /* Mise en page de l'élément */
   background-color: #579c87;
+  /* Mise en page de l'élément */
   border-radius: 12px 12px 12px 12px;
   -moz-border-radius: 12px 12px 12px 12px;
   -webkit-border-radius: 12px 12px 12px 12px;
   border: 0px none #579c87;
   background-color: #579c87;
+  /* Mixins pour les bordures arrondies du boutons */
   margin-bottom: 20px;
+  /* Mise en page de l'élément */
 }
 
-main #bouton-prochainement a {
+#main-homepage #bouton-prochainement a {
   color: #fdcb46;
+  /* Police */
 }
 
-main #bouton-prochainement a h3 {
+#main-homepage #bouton-prochainement a h3 {
   margin: 8px;
+  /* Mise en page de l'élément */
   font-size: 1.2em;
+  /* Police */
   font-weight: 400;
+  /* Police */
 }
 
 /* ---------------------------------------- */
@@ -342,6 +366,7 @@ footer {
   text-align: center;
   /* Mise en page de l'élément */
   background-color: #579c87;
+  /* Mise en page de l'élément */
 }
 
 footer #bouton-mentions-legales {
@@ -352,7 +377,9 @@ footer #bouton-mentions-legales {
   padding: 5px;
   /* Mise en page de l'élément */
   margin-top: 10px;
+  /* Mise en page de l'élément */
   margin-bottom: 5px;
+  /* Mise en page de l'élément */
 }
 
 footer #bouton-contact {
@@ -367,7 +394,9 @@ footer #bouton-contact {
 
 footer a {
   color: #fdcb46;
+  /* Police */
   font-size: 1.2em;
+  /* Police */
 }
 
 /* ---------------------------------------- */

@@ -114,7 +114,7 @@ header {
 /*---------------------------------------- */
 
 
-main {
+#main-homepage {
     display: grid; /* Mise en page de l'élément */
     grid-template-columns: repeat(12, 1fr); /* Mise en page de l'élément */
 
@@ -131,10 +131,16 @@ main {
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
 
-                    
+                        #note-music {
+                            @include gradient-text($color-radient-note-first, $color-radient-note-second); /* Voir dégradé note music avec Séverine */
+                            font-size: 2em;
+                            margin-bottom: 0;
+                            @include style-note-music; /* Voir cisaillement note music avec Séverine */
+                        }
                         h2 {
                             color: $font-color-menu1;
                             font-size: 1.5em;
+                            margin-top: 0;
                             
                         }
                         h3 {
@@ -215,17 +221,17 @@ main {
         #bouton-prochainement{
             grid-column: 5/9; /* Mise en page de l'élément */
             text-align: center; /* Mise en page de l'élément */
-            background-color: $primary-color;
-            @include border(12px, 12px, 12px, 12px);
-            margin-bottom: 20px;
+            background-color: $primary-color; /* Mise en page de l'élément */
+            @include border(12px, 12px, 12px, 12px); /* Mixins pour les bordures arrondies du boutons */
+            margin-bottom: 20px; /* Mise en page de l'élément */
 
                 a {
-                    color: $secondary-color;
+                    color: $secondary-color; /* Police */
 
                         h3 {
-                            margin: 8px;
-                            font-size: 1.2em;
-                            font-weight: 400;
+                            margin: 8px; /* Mise en page de l'élément */
+                            font-size: 1.2em; /* Police */
+                            font-weight: 400; /* Police */
                         }
                 }
 
@@ -245,13 +251,13 @@ footer {
     grid-template-columns: repeat(12, 1fr); /* Mise en page de l'élément */
     grid-template-rows: repeat(2, 1fr); /* Mise en page de l'élément */
     text-align: center; /* Mise en page de l'élément */
-    background-color: $primary-color;
+    background-color: $primary-color; /* Mise en page de l'élément */
 
     #bouton-mentions-legales {
         grid-column: 3/11; /* Mise en page de l'élément */
         padding: 5px; /* Mise en page de l'élément */
-        margin-top: 10px;
-        margin-bottom: 5px;
+        margin-top: 10px; /* Mise en page de l'élément */
+        margin-bottom: 5px; /* Mise en page de l'élément */
 
         
     }
@@ -264,8 +270,8 @@ footer {
 
 
     a {
-        color: $secondary-color;
-        font-size: 1.2em;
+        color: $secondary-color; /* Police */
+        font-size: 1.2em; /* Police */
     }
 
         
