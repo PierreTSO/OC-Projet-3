@@ -82,6 +82,9 @@ body {
 }
 
 /* ---------------------------------------- */
+/* ==             HOMEPAGE             */
+/*---------------------------------------- */
+/* ---------------------------------------- */
 /* ==              HEADER               */
 /*---------------------------------------- */
 header {
@@ -403,9 +406,57 @@ footer a {
 /* ==       MEDIAS QUERIS        */
 /*---------------------------------------- */
 /* /* small tablet styles */
-/* @media screen and (min-width: 620px) {} */
+/* @media screen and (min-width: 620px) {
+        
+
+
+} */
 /* large tablets & laptop styles */
-/* @media screen and (min-width: 960px) {} */
+/* @media screen and (min-width: 960px) {
+
+} */
 /* desktop styles */
 /* @media screen and (min-width: 1200px) {} */
+/* ---------------------------------------- */
+/* ==         MENTIONS LEGALES              */
+/*---------------------------------------- */
+#main-mentionlegales {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+#main-mentionlegales * {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-mentionlegales h2 {
+  text-align: center;
+  color: #579c87;
+  font-size: 2em;
+}
+
+#main-mentionlegales h3 {
+  color: #fdcb46;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+#main-mentionlegales p {
+  text-align: justify;
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=style.css.map */
