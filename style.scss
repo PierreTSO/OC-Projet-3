@@ -223,6 +223,7 @@ main {
                     color: $secondary-color;
 
                         h3 {
+                            margin: 8px;
                             font-size: 1.2em;
                             font-weight: 400;
                         }
@@ -249,21 +250,25 @@ footer {
     #bouton-mentions-legales {
         grid-column: 3/11; /* Mise en page de l'élément */
         padding: 5px; /* Mise en page de l'élément */
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+        
     }
 
     #bouton-contact {
         grid-column: 3/11; /* Mise en page de l'élément */
         grid-row: 2/2; /* Mise en page de l'élément */
+
     }
+
 
     a {
         color: $secondary-color;
+        font-size: 1.2em;
     }
 
-        a:link:hover {
-        @include keyframes(wiggle);
-        @include wiggle('wiggle 2s infinite');
-        }
+        
 }
 
 /* ---------------------------------------- */
