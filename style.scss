@@ -526,3 +526,84 @@ footer {
         }        
     }
 }
+
+/* ---------------------------------------- */
+/* ==               MENU 3                  */
+/*---------------------------------------- */
+
+#main-menu3{
+
+    width: 80%; /* Mise en page de l'élément */
+    margin: 10px auto; /* Mise en page de l'élément */
+    background-color: $main-color-background-menu3;
+    font-family: $font-menu-3;
+    padding-bottom: 12% ;
+    #titre-menu1 {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            text-align: center;
+            font-size: 3em; /* Taille Police */
+            margin: 12% auto;
+            @include gradient-text($color-radient-third, $color-radient-fourth);
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            color: $font-carte-menu-3;
+            font-size: 1em;
+        }
+    }
+
+    .carte-menu1 {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        font-weight: 600;
+
+        .plat {
+            grid-column: 2/10;
+            overflow: hidden;
+            padding: 1%;
+            margin: 0;
+            color: $font-carte-menu-3;
+        }
+
+        .prix {
+            grid-column: 11/13;
+            overflow: hidden;
+            margin: 0;
+            color: $font-carte-menu-3;
+        }
+    }
+
+    #dessert-menu1 {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        font-weight: 600;
+
+        .plat {
+            grid-column: 2/10;
+            overflow: hidden;
+            padding: 1%;
+            margin: 0;
+            color: $font-color-menu1;
+        }
+
+        .prix {
+            grid-column: 11/13;
+            overflow: hidden;
+            margin: 0;
+            color: $font-color-menu1;
+        }  
+    }
+
+}

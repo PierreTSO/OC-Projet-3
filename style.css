@@ -721,4 +721,116 @@ footer a {
   padding: 1%;
   color: #6e4ccc;
 }
+
+/* ---------------------------------------- */
+/* ==               MENU 3                  */
+/*---------------------------------------- */
+#main-menu3 {
+  width: 80%;
+  /* Mise en page de l'élément */
+  margin: 10px auto;
+  /* Mise en page de l'élément */
+  background-color: #edefef;
+  font-family: "Dancing Script";
+  padding-bottom: 12%;
+}
+
+#main-menu3 #titre-menu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-menu3 #titre-menu1 h2 {
+  text-align: center;
+  font-size: 3em;
+  /* Taille Police */
+  margin: 12% auto;
+  background-color: #1f45e1;
+  background-image: linear-gradient(120deg, #1f45e1, #178ffa);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#main-menu3 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-menu3 div h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #121212;
+  font-size: 1em;
+}
+
+#main-menu3 .carte-menu1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  font-weight: 600;
+}
+
+#main-menu3 .carte-menu1 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0;
+  color: #121212;
+}
+
+#main-menu3 .carte-menu1 .prix {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  overflow: hidden;
+  margin: 0;
+  color: #121212;
+}
+
+#main-menu3 #dessert-menu1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  font-weight: 600;
+}
+
+#main-menu3 #dessert-menu1 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0;
+  color: #532b30;
+}
+
+#main-menu3 #dessert-menu1 .prix {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  overflow: hidden;
+  margin: 0;
+  color: #532b30;
+}
 /*# sourceMappingURL=style.css.map */
