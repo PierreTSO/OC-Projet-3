@@ -465,7 +465,9 @@ footer a {
 /*---------------------------------------- */
 #main-menu1 {
   width: 80%;
+  /* Mise en page de l'élément */
   margin: 10px auto;
+  /* Mise en page de l'élément */
   background-color: #fcdfdb;
   font-family: "Satisfy";
 }
@@ -579,5 +581,144 @@ footer a {
 
 #main-menu1 #fin-menu1 h2 {
   color: #532b30;
+}
+
+/* ---------------------------------------- */
+/* ==               MENU 2                  */
+/*---------------------------------------- */
+#main-menu-carte2 {
+  width: 80%;
+  /* Mise en page de l'élément */
+  margin: 10px auto;
+  /* Mise en page de l'élément */
+  background-color: #fff5fe;
+  font-family: "Cormorant Infant";
+  padding-bottom: 12%;
+}
+
+#main-menu-carte2 #titre-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-menu-carte2 #titre-menu h2 {
+  text-align: center;
+  background-color: #d88b45;
+  background-image: linear-gradient(120deg, #d88b45, #9360fe);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  /* Dégrader couleur texte */
+  font-size: 2em;
+  /* Taille Police */
+  margin: 12% auto;
+}
+
+#main-menu-carte2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-menu-carte2 div h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  margin: 2% auto;
+}
+
+#main-menu-carte2 div #titre-entrées {
+  color: #c67412;
+}
+
+#main-menu-carte2 div #titre-plats {
+  color: #a56799;
+}
+
+#main-menu-carte2 div #titre-desserts {
+  color: #6e4ccc;
+}
+
+#main-menu-carte2 .entrées-menu2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrées-menu2 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0;
+}
+
+#main-menu-carte2 .entrées-menu2 .prix {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  overflow: hidden;
+  margin: 0;
+}
+
+#main-menu-carte2 .plats-menu2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+#main-menu-carte2 .plats-menu2 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu2 .prix {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  overflow: hidden;
+  margin: 0;
+  color: #a56799;
+}
+
+#main-menu-carte2 #dessert-menu2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+#main-menu-carte2 #dessert-menu2 .plat {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  overflow: hidden;
+  margin: 0;
+  padding: 1%;
+  color: #6e4ccc;
 }
 /*# sourceMappingURL=style.css.map */

@@ -341,8 +341,8 @@ footer {
 
 #main-menu1{
 
-    width: 80%;
-    margin: 10px auto;
+    width: 80%; /* Mise en page de l'élément */
+    margin: 10px auto; /* Mise en page de l'élément */
     background-color: $menu1;
     font-family: $font-menu-1;
     #titre-menu1 {
@@ -422,5 +422,107 @@ footer {
         h2 {
             color: $font-color-menu1;
         }
+    }
+}
+
+/* ---------------------------------------- */
+/* ==               MENU 2                  */
+/*---------------------------------------- */
+
+#main-menu-carte2{
+
+    width: 80%; /* Mise en page de l'élément */
+    margin: 10px auto; /* Mise en page de l'élément */
+    background-color: $menu2;
+    font-family: $font-menu-2;
+    padding-bottom: 12% ;
+    #titre-menu {
+        display: flex;
+        flex-direction: column;
+        
+        h2 {
+            text-align: center;
+            @include gradient-text($color-radient-first, $color-radient-second); /* Dégrader couleur texte */
+            font-size: 2em; /* Taille Police */
+            margin: 12% auto;
+        }
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        
+        h3 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 1em;
+            margin: 2% auto;
+        }
+
+        #titre-entrées {
+            color: $entrée-menu-2;
+        }
+
+        #titre-plats {
+            color: $plats-menu-2;
+        }
+
+        #titre-desserts {
+            color: $desserts-menu-2;
+        }
+
+    }
+
+    .entrées-menu2 {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        color: $entrée-menu-2;
+
+        .plat {
+            grid-column: 2/10;
+            overflow: hidden;
+            padding: 1%;
+            margin: 0;
+        }
+
+        .prix {
+            grid-column: 11/13;
+            overflow: hidden;
+            margin: 0;
+        }
+    }
+
+    .plats-menu2 {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .plat {
+            grid-column: 2/10;
+            overflow: hidden;
+            padding: 1%;
+            margin: 0;
+            color: $plats-menu-2;
+        }
+
+        .prix {
+            grid-column: 11/13;
+            overflow: hidden;
+            margin: 0;
+            color: $plats-menu-2;
+        }
+    }
+
+    #dessert-menu2 {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        .plat {
+            grid-column: 2/12;
+            overflow: hidden;
+            margin: 0;
+            padding: 1%;
+            color: $desserts-menu-2;
+        }        
     }
 }
