@@ -85,4 +85,30 @@
 @mixin zoommenu {
     transform: scale(1);
 }
+
+@mixin grid-menu {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+@mixin grid-titre-menu {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1;
+    grid-column: 1/13;
+    text-align: center;
+}
+
+@mixin grid-plat($row) {
+    grid-column: 2/10;
+    grid-row: $row;
+    margin: 4px;
+}
+
+@mixin grid-prix ($row) {
+    grid-column: 11/13;
+    grid-row: $row;
+    margin: 4px;
+}
   

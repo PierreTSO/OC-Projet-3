@@ -448,83 +448,109 @@ footer {
         }
     }
 
-    div {
-        display: flex;
-        flex-direction: column;
+    .entrees-menu {
+        @include grid-menu;
+
+        #titre-entrees-menu2{
+            @include grid-titre-menu;
+            color: $entree-menu-2;
+        }
+    
+        .entree1 {
+            @include grid-plat(2);
+            color: $entree-menu-2;
+        }
+
+        .prix1 {
+            @include grid-prix(2);
+            color: $entree-menu-2;
+
+        }
+
+        .entree2 {
+            @include grid-plat(3);
+            color: $entree-menu-2;
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+            color: $entree-menu-2;
+        }
+
+        .entree3 {
+            @include grid-plat(4);
+            color: $entree-menu-2;
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            color: $entree-menu-2;
+        }
+    }
         
-        h3 {
-            text-align: center;
-            font-weight: 600;
-            font-size: 1em;
-            margin: 2% auto;
-        }
+    .plats-menu {
+        @include grid-menu;
 
-        #titre-entrées {
-            color: $entrée-menu-2;
+        #titre-plats-menu3{
+            @include grid-titre-menu;
+            color: $plats-menu-2;
         }
-
-        #titre-plats {
+    
+        .plat1 {
+            @include grid-plat(2);
             color: $plats-menu-2;
         }
 
-        #titre-desserts {
+        .prix1 {
+            @include grid-prix(2);
+            color: $plats-menu-2;
+
+        }
+
+        .plat2 {
+            @include grid-plat(3);
+            color: $plats-menu-2;
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+            color: $plats-menu-2;
+        }
+
+        .plat3 {
+            @include grid-plat(4);
+            color: $plats-menu-2;
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            color: $plats-menu-2;
+        }
+    }
+    
+    .dessert-menu {
+        @include grid-menu;
+
+        #titre-desserts-menu3{
+            @include grid-titre-menu;
+            color: $desserts-menu-2;
+        }
+    
+        .dessert1 {
+            @include grid-plat(2);
             color: $desserts-menu-2;
         }
 
-    }
-
-    .entrées-menu2 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        color: $entrée-menu-2;
-
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-        }
-
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
-        }
-    }
-
-    .plats-menu2 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-            color: $plats-menu-2;
-        }
-
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
-            color: $plats-menu-2;
-        }
-    }
-
-    #dessert-menu2 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        .plat {
-            grid-column: 2/12;
-            overflow: hidden;
-            margin: 0;
-            padding: 1%;
+        .dessert2{
+            @include grid-plat(3);
             color: $desserts-menu-2;
-        }        
-    }
+        }
+
+        .dessert3 {
+            @include grid-plat(4);
+            color: $desserts-menu-2;
+        }
+    }   
 }
 
 /* ---------------------------------------- */

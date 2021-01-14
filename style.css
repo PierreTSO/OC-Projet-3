@@ -621,7 +621,16 @@ footer a {
   margin: 12% auto;
 }
 
-#main-menu-carte2 div {
+#main-menu-carte2 .entrees-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+}
+
+#main-menu-carte2 .entrees-menu #titre-entrees-menu2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -629,96 +638,214 @@ footer a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-#main-menu-carte2 div h3 {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1/13;
   text-align: center;
-  font-weight: 600;
-  font-size: 1em;
-  margin: 2% auto;
-}
-
-#main-menu-carte2 div #titre-entrées {
   color: #c67412;
 }
 
-#main-menu-carte2 div #titre-plats {
+#main-menu-carte2 .entrees-menu .entree1 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  margin: 4px;
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrees-menu .prix1 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  margin: 4px;
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrees-menu .entree2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  margin: 4px;
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrees-menu .prix2 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  margin: 4px;
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrees-menu .entree3 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  margin: 4px;
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrees-menu .prix3 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  margin: 4px;
+  color: #c67412;
+}
+
+#main-menu-carte2 .plats-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+}
+
+#main-menu-carte2 .plats-menu #titre-plats-menu3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1/13;
+  text-align: center;
   color: #a56799;
 }
 
-#main-menu-carte2 div #titre-desserts {
+#main-menu-carte2 .plats-menu .plat1 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  margin: 4px;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu .prix1 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  margin: 4px;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu .plat2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  margin: 4px;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu .prix2 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  margin: 4px;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu .plat3 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  margin: 4px;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu .prix3 {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 2;
+  grid-column: 11/13;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  margin: 4px;
+  color: #a56799;
+}
+
+#main-menu-carte2 .dessert-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+}
+
+#main-menu-carte2 .dessert-menu #titre-desserts-menu3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1/13;
+  text-align: center;
   color: #6e4ccc;
 }
 
-#main-menu-carte2 .entrées-menu2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
-  color: #c67412;
-}
-
-#main-menu-carte2 .entrées-menu2 .plat {
+#main-menu-carte2 .dessert-menu .dessert1 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 8;
   grid-column: 2/10;
-  overflow: hidden;
-  padding: 1%;
-  margin: 0;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  margin: 4px;
+  color: #6e4ccc;
 }
 
-#main-menu-carte2 .entrées-menu2 .prix {
-  -ms-grid-column: 11;
-  -ms-grid-column-span: 2;
-  grid-column: 11/13;
-  overflow: hidden;
-  margin: 0;
-}
-
-#main-menu-carte2 .plats-menu2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (1fr)[2];
-      grid-template-rows: repeat(2, 1fr);
-}
-
-#main-menu-carte2 .plats-menu2 .plat {
+#main-menu-carte2 .dessert-menu .dessert2 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 8;
   grid-column: 2/10;
-  overflow: hidden;
-  padding: 1%;
-  margin: 0;
-  color: #a56799;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  margin: 4px;
+  color: #6e4ccc;
 }
 
-#main-menu-carte2 .plats-menu2 .prix {
-  -ms-grid-column: 11;
-  -ms-grid-column-span: 2;
-  grid-column: 11/13;
-  overflow: hidden;
-  margin: 0;
-  color: #a56799;
-}
-
-#main-menu-carte2 #dessert-menu2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
-}
-
-#main-menu-carte2 #dessert-menu2 .plat {
+#main-menu-carte2 .dessert-menu .dessert3 {
   -ms-grid-column: 2;
-  -ms-grid-column-span: 10;
-  grid-column: 2/12;
-  overflow: hidden;
-  margin: 0;
-  padding: 1%;
+  -ms-grid-column-span: 8;
+  grid-column: 2/10;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  margin: 4px;
   color: #6e4ccc;
 }
 
