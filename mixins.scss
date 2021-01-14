@@ -86,10 +86,10 @@
     transform: scale(1);
 }
 
-@mixin grid-menu {
+@mixin grid-menu($row) {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat($row, auto);
 }
 
 @mixin grid-titre-menu {

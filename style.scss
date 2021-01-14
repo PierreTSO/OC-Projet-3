@@ -359,55 +359,121 @@ footer {
         h2 {
             text-align: center;
             margin: 0;
-            color: $font-color-menu1
+            color: $font-color-menu1;
+            font-size: 30px;
         }
     }
 
-    div {
-        display: flex;
-        flex-direction: column;
+    .entrees-menu {
+        @include grid-menu(5);
+        color: $font-color-menu1;
+        font-size: 16px;
+
+        #titre-entrees-menu1{
+            @include grid-titre-menu;
+            font-size: 20px;
+        }
+    
+        .entree1 {
+            @include grid-plat(2);
+            font-size: 16px;
+        }
+
+        .prix1 {
+            @include grid-prix(2);
+            font-weight: 600;
+        }
+
+        .entree2 {
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+            font-weight: 600;
+        }
+
+        .entree3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            font-weight: 600;
+        }
+
+        .entree4 {
+            @include grid-plat(5);
+        }
+
+        .prix4 {
+            @include grid-prix(5);
+            font-weight: 600;
+        }
+    }
         
-        h3 {
-            text-align: center;
+    .plats-menu {
+        @include grid-menu(4);
+        color: $font-color-menu1;
+        font-size: 16px;
+
+        #titre-plats-menu1{
+            @include grid-titre-menu;
+            font-size: 20px;
+        }
+    
+        .plat1 {
+            @include grid-plat(2);
+        }
+
+        .prix1 {
+            @include grid-prix(2);
             font-weight: 600;
-            color: $font-color-menu1;
-            font-size: 1.5em;
-        }
-    }
 
-    .carte-menu1 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-            color: $font-color-menu1;
         }
 
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
+        .plat2 {
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
             font-weight: 600;
-            color: $font-color-menu1;
+        }
+
+        .plat3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            font-weight: 600;
         }
     }
+    
+    .dessert-menu {
+        @include grid-menu(4);
+        color: $font-color-menu1;
+        font-size: 16px;
 
-    #dessert-menu1 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        .plat {
-            grid-column: 2/12;
-            overflow: hidden;
-            margin: 0;
-            padding: 1%;
-            color: $font-color-menu1;
-        }        
-    }
+        #titre-desserts-menu1{
+            @include grid-titre-menu;
+            font-size: 20px;
+        }
+    
+        .dessert1 {
+            @include grid-plat(2);
+        }
+
+        .dessert2{
+            @include grid-plat(3);
+        }
+
+        .dessert3 {
+            @include grid-plat(4);
+        }
+    }   
+
 
     #fin-menu1{
         display: flex;
@@ -421,6 +487,8 @@ footer {
         }
         h2 {
             color: $font-color-menu1;
+            font-size: 20px;
+            font-weight: 800;
         }
     }
 }
@@ -443,17 +511,19 @@ footer {
         h2 {
             text-align: center;
             @include gradient-text($color-radient-first, $color-radient-second); /* Dégrader couleur texte */
-            font-size: 2em; /* Taille Police */
+            font-size: 30px; /* Taille Police */
             margin: 12% auto;
         }
     }
 
     .entrees-menu {
-        @include grid-menu;
+        @include grid-menu(4);
+        font-size: 16px;
 
         #titre-entrees-menu2{
             @include grid-titre-menu;
             color: $entree-menu-2;
+            font-size: 20px;
         }
     
         .entree1 {
@@ -489,11 +559,13 @@ footer {
     }
         
     .plats-menu {
-        @include grid-menu;
+        @include grid-menu(4);
+        font-size: 16px;
 
-        #titre-plats-menu3{
+        #titre-plats-menu2{
             @include grid-titre-menu;
             color: $plats-menu-2;
+            font-size: 20px;
         }
     
         .plat1 {
@@ -529,11 +601,13 @@ footer {
     }
     
     .dessert-menu {
-        @include grid-menu;
+        @include grid-menu(4);
+        font-size: 16px;
 
-        #titre-desserts-menu3{
+        #titre-desserts-menu2{
             @include grid-titre-menu;
             color: $desserts-menu-2;
+            font-size: 20px
         }
     
         .dessert1 {
@@ -564,72 +638,121 @@ footer {
     background-color: $main-color-background-menu3;
     font-family: $font-menu-3;
     padding-bottom: 12% ;
-    #titre-menu1 {
+    #titre-menu {
         display: flex;
         flex-direction: column;
 
         h2 {
             text-align: center;
-            font-size: 3em; /* Taille Police */
+            font-size: 40px; /* Taille Police */
             @include gradient-text($color-radient-third, $color-radient-fourth);
         }
     }
 
-    div {
-        display: flex;
-        flex-direction: column;
+    .entrees-menu {
+        @include grid-menu(4);
+        font-size: 16px;
+        font-weight: 600;
+
+        #titre-entrees-menu3{
+            @include grid-titre-menu;
+            font-size: 20px;
+        }
+    
+        .entree1 {
+            @include grid-plat(2);
+        }
+
+        .prix1 {
+            @include grid-prix(2);
+        }
+
+        .entree2 {
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+        }
+
+        .entree3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+        }
+    }
         
-        h3 {
-            text-align: center;
-            font-weight: 600;
-            color: $font-carte-menu-3;
-            font-size: 1em;
-        }
-    }
-
-    .carte-menu1 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+    .plats-menu {
+        @include grid-menu(4);
+        font-size: 16px;
         font-weight: 600;
 
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-            color: $font-carte-menu-3;
+        #titre-plats-menu3{
+            @include grid-titre-menu;
+            font-size: 20px;
+        }
+    
+        .plat1 {
+            @include grid-plat(2);
         }
 
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
-            color: $font-carte-menu-3;
+        .prix1 {
+            @include grid-prix(2);
+        }
+
+        .plat2 {
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+        }
+
+        .plat3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
         }
     }
-
-    #dessert-menu1 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+    
+    .dessert-menu {
+        @include grid-menu(4);
+        font-size: 16px;
         font-weight: 600;
 
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-            color: $font-color-menu1;
+        #titre-desserts-menu3{
+            @include grid-titre-menu;
+            font-size: 20px
+        }
+    
+        .dessert1 {
+            @include grid-plat(2);
         }
 
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
-            color: $font-color-menu1;
-        }  
-    }
+        .prix1 {
+            @include grid-prix(2);
+        }
+
+        .dessert2{
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+        }
+
+        .dessert3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+        }
+    }   
 
 }
 
@@ -650,65 +773,126 @@ footer {
 
         h2 {
             text-align: center;
-            font-size: 3em; /* Taille Police */
+            font-size: 40px; /* Taille Police */
             @include gradient-text($color-radient-fifth, $color-radient-sixth);
         }
     }
 
-    div {
-        display: flex;
-        flex-direction: column;
+    .entrees-menu {
+        @include grid-menu(4);
+        font-size: 16px;
+       
+
+        #titre-entrees-menu4{
+            @include grid-titre-menu;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    
+        .entree1 {
+            @include grid-plat(2);
+        }
+
+        .prix1 {
+            @include grid-prix(2);
+            font-weight: 800;
+        }
+
+        .entree2 {
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+            font-weight: 800;
+        }
+
+        .entree3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            font-weight: 800;
+        }
+    }
         
-        h3 {
-            text-align: center;
-            font-weight: 600;
-            color: $font-carte-menu-3;
-            font-size: 1em;
+    .plats-menu {
+        @include grid-menu(4);
+        font-size: 16px;
+        
+
+        #titre-plats-menu4{
+            @include grid-titre-menu;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    
+        .plat1 {
+            @include grid-plat(2);
+        }
+
+        .prix1 {
+            @include grid-prix(2);
+            font-weight: 800;
+        }
+
+        .plat2 {
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+            font-weight: 800;
+        }
+
+        .plat3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            font-weight: 800;
         }
     }
+    
+    .dessert-menu {
+        @include grid-menu(4);
+        font-size: 16px;
+        
 
-    .carte-menu1 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-            color: $font-carte-menu-3;
+        #titre-desserts-menu4{
+            @include grid-titre-menu;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    
+        .dessert1 {
+            @include grid-plat(2);
         }
 
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
-            color: $font-carte-menu-3;
-            font-weight: 600;
-        }
-    }
-
-    #dessert-menu1 {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-
-        .plat {
-            grid-column: 2/10;
-            overflow: hidden;
-            padding: 1%;
-            margin: 0;
-            color: $font-color-menu1;
+        .prix1 {
+            @include grid-prix(2);
+            font-weight: 800;
         }
 
-        .prix {
-            grid-column: 11/13;
-            overflow: hidden;
-            margin: 0;
-            color: $font-color-menu1;
-            font-weight: 600;
-        }  
-    }
+        .dessert2{
+            @include grid-plat(3);
+        }
+
+        .prix2 {
+            @include grid-prix(3);
+            font-weight: 800;
+        }
+
+        .dessert3 {
+            @include grid-plat(4);
+        }
+
+        .prix3 {
+            @include grid-prix(4);
+            font-weight: 800;
+        }
+    }   
 
 }
