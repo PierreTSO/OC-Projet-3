@@ -126,8 +126,13 @@ header h1 {
   -ms-grid-column-span: 6;
   grid-column: 4/10;
   /* Mise en page de l'élément */
-  text-align: center;
-  /* Mise en page de l'élément */
+  min-width: 250px;
+  max-width: 250px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 #main-homepage nav #menu1 {
@@ -337,6 +342,13 @@ header h1 {
   /* Mixins pour les bordures arrondies du boutons */
   margin-bottom: 20px;
   /* Mise en page de l'élément */
+  min-width: 170px;
+  max-width: 170px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 #main-homepage #bouton-prochainement a {

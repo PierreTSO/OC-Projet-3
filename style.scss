@@ -124,7 +124,10 @@ header {
 
         nav {
             grid-column: 4/10; /* Mise en page de l'élément */
-            text-align: center; /* Mise en page de l'élément */
+            min-width: 250px;
+            max-width: 250px;
+            align-self: center;
+            justify-self: center;
 
                 #menu1{
                     @include style-menu($menu1, $font-menu-1); /* Background et Font */
@@ -134,6 +137,8 @@ header {
                     justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
+                    
+                    
 
                         #note-music {
                             @include gradient-text($color-radient-note-first, $color-radient-note-second); /* Voir dégradé note music avec Séverine */
@@ -162,6 +167,7 @@ header {
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
                     
+                    
                        h2 {
                             @include gradient-text($color-radient-first, $color-radient-second); /* Dégrader couleur texte */
                             font-size: 1.5em; /* Taille Police */
@@ -181,6 +187,7 @@ header {
                     justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
+                    
                     
                         h2 {
                             @include gradient-text($color-radient-third, $color-radient-fourth); /* Dégrader couleur texte */
@@ -206,6 +213,7 @@ header {
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
                     
+                    
                         h2 {
                             @include gradient-text($color-radient-fifth, $color-radient-sixth); /* Dégrader couleur texte */
                             font-size: 1.5em; /* Taille Police */
@@ -228,6 +236,10 @@ header {
             background-color: $primary-color; /* Mise en page de l'élément */
             @include border(12px, 12px, 12px, 12px); /* Mixins pour les bordures arrondies du boutons */
             margin-bottom: 20px; /* Mise en page de l'élément */
+            min-width: 170px;
+            max-width: 170px;
+            align-self: center;
+            justify-self: center;
 
                 a {
                     color: $secondary-color; /* Police */
