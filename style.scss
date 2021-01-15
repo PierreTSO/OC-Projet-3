@@ -110,6 +110,10 @@ header {
         color: $secondary-color; 
         font-family: $font-principal;
         font-size: 3em;
+        
+        a {
+            color: $secondary-color; 
+        }
     }
 }
 
