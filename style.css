@@ -427,7 +427,7 @@ footer a {
       grid-template-columns: repeat(12, 1fr);
 }
 
-#main-mentionlegales * {
+#main-mentionlegales h2, #main-mentionlegales p, #main-mentionlegales h3, #main-mentionlegales ul, #main-mentionlegales li {
   -ms-grid-column: 2;
   -ms-grid-column-span: 10;
   grid-column: 2/12;

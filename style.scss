@@ -310,7 +310,7 @@ footer {
 #main-mentionlegales {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-        * {
+        h2, p, h3, ul, li {
             grid-column: 2/12;
             display: flex;
             flex-direction: column;
