@@ -176,9 +176,13 @@ header h1 a {
   /* Voir dégradé note music avec Séverine */
   font-size: 2em;
   margin-bottom: 0;
-  -webkit-transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
-          transform: skewX(-0.04turn) skewY(-0.03turn) scaleX(1.8);
+  -webkit-transform: skew(-10deg, -15deg);
+          transform: skew(-10deg, -15deg);
   /* Voir cisaillement note music avec Séverine */
+  color: #c31f2e;
+  background: -webkit-linear-gradient(321deg, red, #ffc3af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #main-homepage nav #menu1 h2 {
@@ -503,6 +507,12 @@ footer a {
   margin-top: 10px;
   font-size: 5em;
   height: 65px;
+  -webkit-transform: skew(-10deg, -15deg);
+          transform: skew(-10deg, -15deg);
+  color: #c31f2e;
+  background: -webkit-linear-gradient(321deg, red, #ffc3af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #main-menu1 #titre-menu1 h2 {
@@ -776,6 +786,12 @@ footer a {
 
 #main-menu1 #fin-menu1 #note-music {
   font-size: 3em;
+  -webkit-transform: skew(-10deg, -15deg);
+          transform: skew(-10deg, -15deg);
+  color: #c31f2e;
+  background: -webkit-linear-gradient(321deg, red, #ffc3af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #main-menu1 #fin-menu1 h2 {

@@ -148,7 +148,8 @@ header {
                             @include gradient-text($color-radient-note-first, $color-radient-note-second); /* Voir dégradé note music avec Séverine */
                             font-size: 2em;
                             margin-bottom: 0;
-                            @include style-note-music; /* Voir cisaillement note music avec Séverine */
+                            transform: skew(-10deg, -15deg); /* Voir cisaillement note music avec Séverine */
+                            @include gradient-music;
                         }
                         h2 {
                             color: $font-color-menu1;
@@ -370,6 +371,8 @@ footer {
             margin-top: 10px;
             font-size: 5em;
             height: 65px;
+            transform: skew(-10deg, -15deg);
+            @include gradient-music;
         }
 
         h2 {
@@ -500,6 +503,9 @@ footer {
 
         #note-music {
             font-size: 3em;
+            transform: skew(-10deg, -15deg);
+            @include gradient-music;
+
         }
         h2 {
             color: $font-color-menu1;
