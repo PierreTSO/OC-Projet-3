@@ -364,6 +364,7 @@ footer {
     margin: 10px auto; /* Mise en page de l'élément */
     background-color: $menu1;
     font-family: $font-menu-1;
+    margin-bottom: 95px;
     #titre-menu1 {
         display: flex;
         flex-direction: column;
@@ -528,6 +529,7 @@ footer {
     background-color: $menu2;
     font-family: $font-menu-2;
     padding-bottom: 12% ;
+    margin-bottom: 95px;
     #titre-menu {
         display: flex;
         flex-direction: column;
@@ -662,6 +664,7 @@ footer {
     background-color: $main-color-background-menu3;
     font-family: $font-menu-3;
     padding-bottom: 12% ;
+    margin-bottom: 95px;
     #titre-menu {
         display: flex;
         flex-direction: column;
@@ -790,7 +793,8 @@ footer {
     margin: 10px auto; /* Mise en page de l'élément */
     background-color: $main-color-background-menu4;
     font-family: $font-menu-4;
-    padding-bottom: 12% ;
+    padding-bottom: 12%;
+    margin-bottom: 95px;
     #titre-menu1 {
         display: flex;
         flex-direction: column;

@@ -493,6 +493,7 @@ footer a {
   /* Mise en page de l'élément */
   background-color: #fcdfdb;
   font-family: "Satisfy";
+  margin-bottom: 95px;
 }
 
 #main-menu1 #titre-menu1 {
@@ -814,6 +815,7 @@ footer a {
   background-color: #fff5fe;
   font-family: "Cormorant Infant";
   padding-bottom: 12%;
+  margin-bottom: 95px;
 }
 
 #main-menu-carte2 #titre-menu {
@@ -1086,6 +1088,7 @@ footer a {
   background-color: #edefef;
   font-family: "Dancing Script";
   padding-bottom: 12%;
+  margin-bottom: 95px;
 }
 
 #main-menu3 #titre-menu {
@@ -1368,6 +1371,7 @@ footer a {
   background-color: #fdfffd;
   font-family: "Kaushan Script";
   padding-bottom: 12%;
+  margin-bottom: 95px;
 }
 
 #main-menu4 #titre-menu1 {
