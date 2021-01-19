@@ -103,6 +103,7 @@ header {
     display: grid; /* Mise en page de l'élément */
     grid-template-columns: repeat(3, 1fr); /* Mise en page de l'élément */
     background-color: $primary-color;
+    width: 100%;
 
     h1 {
         text-align: center; /* Mise en page de l'élément */
@@ -405,12 +406,192 @@ footer {
 
 
 /* large tablets & laptop styles */
-/* @media screen and (min-width: 960px) {
+@media screen and (min-width: 960px) {
 
-} */
+        #main-homepage {
+    
+            nav {
+            
+                #menu1 {
+                    min-width: 400px;
+                    max-width: 450px;
+                    height: 500px;
+
+                        #note-music {
+                            font-size: 60px;
+                        }
+
+                        h2 {
+                            font-size: 40px;
+                        }
+
+                        h3 {
+                            font-size: 30px;
+                        }
+                }
+    
+                #menu2 {
+                    min-width: 400px;
+                    max-width: 450px;
+                    height: 500px;
+
+                    h2 {
+                        font-size: 40px;
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                    }
+                }
+    
+                #menu3 {
+                    min-width: 400px;
+                    max-width: 450px;
+                    height: 500px;
+
+                    h2 {
+                        font-size: 40px;
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                    }
+                }
+    
+                #menu4 {
+                    min-width: 400px;
+                    max-width: 450px;
+                    height: 500px;
+
+                    h2 {
+                        font-size: 40px;
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                    }
+                }
+            }
+    
+            #bouton-prochainement {
+                min-width: 350px;
+                max-width: 350px;
+                margin-bottom: 20px;
+    
+                a {
+                    h3{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    
+        footer {
+            
+            #bouton-mentions-legales {
+                font-size: 20px;
+            }
+    
+            #bouton-contact {
+                font-size: 20px;
+            }
+        }
+
+}
 
 /* desktop styles */
-/* @media screen and (min-width: 1200px) {} */
+@media screen and (min-width: 1200px) {
+
+    #main-homepage {
+    
+        nav {
+        
+            #menu1 {
+                min-width: 550px;
+                max-width: 600px;
+                height: 700px;
+
+                    #note-music {
+                        font-size: 60px;
+                    }
+
+                    h2 {
+                        font-size: 40px;
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                    }
+            }
+
+            #menu2 {
+                min-width: 550px;
+                max-width: 600px;
+                height: 700px;
+
+                h2 {
+                    font-size: 40px;
+                }
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+
+            #menu3 {
+                min-width: 550px;
+                max-width: 600px;
+                height: 700px;
+
+                h2 {
+                    font-size: 40px;
+                }
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+
+            #menu4 {
+                min-width: 550px;
+                max-width: 600px;
+                height: 700px;
+
+                h2 {
+                    font-size: 40px;
+                }
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        #bouton-prochainement {
+            min-width: 350px;
+            max-width: 350px;
+            margin-bottom: 20px;
+
+            a {
+                h3{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    footer {
+        
+        #bouton-mentions-legales {
+            font-size: 20px;
+        }
+
+        #bouton-contact {
+            font-size: 20px;
+        }
+    }
+
+} 
 
 /* ---------------------------------------- */
 /* ==         MENTIONS LEGALES              */

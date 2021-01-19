@@ -95,6 +95,7 @@ header {
       grid-template-columns: repeat(3, 1fr);
   /* Mise en page de l'élément */
   background-color: #579c87;
+  width: 100%;
 }
 
 header h1 {
@@ -543,11 +544,135 @@ footer a {
 }
 
 /* large tablets & laptop styles */
-/* @media screen and (min-width: 960px) {
+@media screen and (min-width: 960px) {
+  #main-homepage nav #menu1 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu1 #note-music {
+    font-size: 60px;
+  }
+  #main-homepage nav #menu1 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu1 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu2 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu2 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu2 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu3 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu3 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu3 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu4 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu4 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu4 h3 {
+    font-size: 30px;
+  }
+  #main-homepage #bouton-prochainement {
+    min-width: 350px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  #main-homepage #bouton-prochainement a h3 {
+    font-size: 30px;
+  }
+  footer #bouton-mentions-legales {
+    font-size: 20px;
+  }
+  footer #bouton-contact {
+    font-size: 20px;
+  }
+}
 
-} */
 /* desktop styles */
-/* @media screen and (min-width: 1200px) {} */
+@media screen and (min-width: 1200px) {
+  #main-homepage nav #menu1 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu1 #note-music {
+    font-size: 60px;
+  }
+  #main-homepage nav #menu1 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu1 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu2 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu2 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu2 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu3 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu3 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu3 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu4 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu4 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu4 h3 {
+    font-size: 30px;
+  }
+  #main-homepage #bouton-prochainement {
+    min-width: 350px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  #main-homepage #bouton-prochainement a h3 {
+    font-size: 30px;
+  }
+  footer #bouton-mentions-legales {
+    font-size: 20px;
+  }
+  footer #bouton-contact {
+    font-size: 20px;
+  }
+}
+
 /* ---------------------------------------- */
 /* ==         MENTIONS LEGALES              */
 /*---------------------------------------- */
