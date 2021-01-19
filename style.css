@@ -126,12 +126,12 @@ header h1 a {
 }
 
 #main-homepage nav {
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 6;
-  grid-column: 4/10;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
   /* Mise en page de l'élément */
-  min-width: 250px;
-  max-width: 250px;
+  min-width: 350px;
+  max-width: 350px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -174,7 +174,7 @@ header h1 a {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   /* Voir dégradé note music avec Séverine */
-  font-size: 2em;
+  font-size: 45px;
   margin-bottom: 0;
   -webkit-transform: skew(-10deg, -15deg);
           transform: skew(-10deg, -15deg);
@@ -187,12 +187,13 @@ header h1 a {
 
 #main-homepage nav #menu1 h2 {
   color: #532b30;
-  font-size: 1.5em;
+  font-size: 30px;
   margin-top: 0;
 }
 
 #main-homepage nav #menu1 h3 {
   color: #532b30;
+  font-size: 20px;
 }
 
 #main-homepage nav #menu2 {
@@ -230,12 +231,13 @@ header h1 a {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   /* Dégrader couleur texte */
-  font-size: 1.5em;
+  font-size: 30px;
   /* Taille Police */
 }
 
 #main-homepage nav #menu2 h3 {
   color: #d88b45;
+  font-size: 20px;
 }
 
 #main-homepage nav #menu3 {
@@ -274,7 +276,7 @@ header h1 a {
   -moz-text-fill-color: transparent;
   /* Dégrader couleur texte */
   /* Demander à Séverine pour le début du H2 est coupé */
-  font-size: 1.5em;
+  font-size: 30px;
   /* Taille Police */
   font-weight: 500;
   /* Taille Police */
@@ -285,6 +287,7 @@ header h1 a {
   font-family: "Kaushan Script";
   font-weight: 500;
   /* Taille Police */
+  font-size: 20px;
 }
 
 #main-homepage nav #menu4 {
@@ -322,7 +325,7 @@ header h1 a {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   /* Dégrader couleur texte */
-  font-size: 1.5em;
+  font-size: 30px;
   /* Taille Police */
 }
 
@@ -331,6 +334,7 @@ header h1 a {
   font-family: "Kaushan Script";
   font-weight: 500;
   /* Taille Police */
+  font-size: 20px;
 }
 
 #main-homepage #bouton-prochainement {

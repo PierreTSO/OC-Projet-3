@@ -127,9 +127,9 @@ header {
     grid-template-columns: repeat(12, 1fr); /* Mise en page de l'élément */
 
         nav {
-            grid-column: 4/10; /* Mise en page de l'élément */
-            min-width: 250px;
-            max-width: 250px;
+            grid-column: 2/12; /* Mise en page de l'élément */
+            min-width: 350px;
+            max-width: 350px;
             align-self: center;
             justify-self: center;
 
@@ -146,19 +146,20 @@ header {
 
                         #note-music {
                             @include gradient-text($color-radient-note-first, $color-radient-note-second); /* Voir dégradé note music avec Séverine */
-                            font-size: 2em;
+                            font-size: 45px;
                             margin-bottom: 0;
                             transform: skew(-10deg, -15deg); /* Voir cisaillement note music avec Séverine */
                             @include gradient-music;
                         }
                         h2 {
                             color: $font-color-menu1;
-                            font-size: 1.5em;
+                            font-size: 30px;
                             margin-top: 0;
                             
                         }
                         h3 {
                             color: $font-color-menu1;
+                            font-size: 20px;
                             
                         }
                 }
@@ -175,12 +176,12 @@ header {
                     
                        h2 {
                             @include gradient-text($color-radient-first, $color-radient-second); /* Dégrader couleur texte */
-                            font-size: 1.5em; /* Taille Police */
+                            font-size: 30px; /* Taille Police */
                             
                        }
                        h3 {
                             color: $color-radient-first;
-                            
+                            font-size: 20px;
                        }
                 }
 
@@ -197,7 +198,7 @@ header {
                         h2 {
                             @include gradient-text($color-radient-third, $color-radient-fourth); /* Dégrader couleur texte */
                             /* Demander à Séverine pour le début du H2 est coupé */
-                            font-size: 1.5em; /* Taille Police */
+                            font-size: 30px; /* Taille Police */
                             font-weight: 500; /* Taille Police */
                             
                         }
@@ -205,6 +206,7 @@ header {
                             color: $color-radient-fourth;
                             font-family: $font-menu-4;
                             font-weight: 500; /* Taille Police */
+                            font-size: 20px;
                             
                         }
                 }
@@ -221,13 +223,14 @@ header {
                     
                         h2 {
                             @include gradient-text($color-radient-fifth, $color-radient-sixth); /* Dégrader couleur texte */
-                            font-size: 1.5em; /* Taille Police */
+                            font-size: 30px; /* Taille Police */
                             
                         }
                          h3 {
                             color: $color-radient-fifth;
                             font-family: $font-menu-4;
                             font-weight: 500; /* Taille Police */
+                            font-size: 20px;
                             
                         }
                 }
