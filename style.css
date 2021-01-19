@@ -424,11 +424,66 @@ footer #bouton-contact {
   /* Mise en page de l'élément */
 }
 
-footer a {
-  color: #fdcb46;
-  /* Police */
+footer a:link {
   font-size: 1.2em;
   /* Police */
+  color: #fdcb46;
+}
+
+footer :hover {
+  color: #fdcb46;
+  -webkit-animation: wiggle 1s infinite;
+  animation: wiggle 1s infinite;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  80% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  85% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  95% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  80% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  85% {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  95% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+footer :visited {
+  color: #fdcb46;
 }
 
 /* ---------------------------------------- */

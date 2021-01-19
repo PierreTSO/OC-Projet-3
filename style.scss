@@ -292,12 +292,19 @@ footer {
 
     }
 
-
-    a {
-        color: $secondary-color; /* Police */
+    a:link {
         font-size: 1.2em; /* Police */
+        color: $secondary-color;
+        
     }
-
+        :hover {
+            color: $secondary-color;
+            @include keyframes(wiggle);
+            @include wiggle('wiggle 1s infinite');
+        }
+        :visited {
+            color: $secondary-color;
+        }
         
 }
 
