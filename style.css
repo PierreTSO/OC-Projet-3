@@ -434,6 +434,114 @@ footer a {
 /* ==       MEDIAS QUERIS        */
 /*---------------------------------------- */
 /* /* small tablet styles */
+@media screen and (min-width: 768px) {
+  header h1 {
+    font-size: 50px;
+  }
+  #main-homepage {
+    width: 100%;
+    margin-bottom: 85px;
+  }
+  #main-homepage nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    width: 100%;
+    max-width: none;
+    min-width: none;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+  #main-homepage nav #menu1 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage nav #menu2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage nav #menu3 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage nav #menu4 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage #bouton-prochainement {
+    margin-bottom: 15px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+  #main-homepage #bouton-prochainement a h3 {
+    font-size: 20px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -ms-grid-rows: none;
+        grid-template-rows: none;
+  }
+  footer #bouton-mentions-legales {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 15px;
+  }
+  footer #bouton-contact {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 3;
+    grid-column: 10/13;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 15px;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+}
+
 /* large tablets & laptop styles */
 /* @media screen and (min-width: 960px) {
 
