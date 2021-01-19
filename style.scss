@@ -121,10 +121,10 @@ header {
 /* ==              MAIN              */
 /*---------------------------------------- */
 
-
 #main-homepage {
     display: grid; /* Mise en page de l'élément */
     grid-template-columns: repeat(12, 1fr); /* Mise en page de l'élément */
+    margin-bottom: 75px;
 
         nav {
             grid-column: 2/12; /* Mise en page de l'élément */
@@ -258,11 +258,7 @@ header {
                             font-weight: 400; /* Police */
                         }
                 }
-
-
         }
-
-
 }
 
 /* ---------------------------------------- */
@@ -276,6 +272,9 @@ footer {
     grid-template-rows: repeat(2, 1fr); /* Mise en page de l'élément */
     text-align: center; /* Mise en page de l'élément */
     background-color: $primary-color; /* Mise en page de l'élément */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
     #bouton-mentions-legales {
         grid-column: 3/11; /* Mise en page de l'élément */
@@ -307,11 +306,11 @@ footer {
 
 
 /* /* small tablet styles */
-/* @media screen and (min-width: 620px) {
+@media screen and (min-width: 620px) {
+
+
+}
         
-
-
-} */
 
 
 

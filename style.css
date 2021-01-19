@@ -123,6 +123,7 @@ header h1 a {
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
   /* Mise en page de l'élément */
+  margin-bottom: 75px;
 }
 
 #main-homepage nav {
@@ -394,6 +395,9 @@ footer {
   /* Mise en page de l'élément */
   background-color: #579c87;
   /* Mise en page de l'élément */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer #bouton-mentions-legales {
@@ -430,11 +434,6 @@ footer a {
 /* ==       MEDIAS QUERIS        */
 /*---------------------------------------- */
 /* /* small tablet styles */
-/* @media screen and (min-width: 620px) {
-        
-
-
-} */
 /* large tablets & laptop styles */
 /* @media screen and (min-width: 960px) {
 
