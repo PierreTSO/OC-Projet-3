@@ -245,18 +245,73 @@ header {
             background-color: $primary-color; /* Mise en page de l'élément */
             @include border(12px, 12px, 12px, 12px); /* Mixins pour les bordures arrondies du boutons */
             margin-bottom: 20px; /* Mise en page de l'élément */
-            min-width: 170px;
-            max-width: 170px;
+            min-width: 150px;
+            max-width: 150px;
             align-self: center;
             justify-self: center;
 
                 a {
                     color: $secondary-color; /* Police */
+                    display: flex;
+                    flex-direction: row;
+                    align-self: center;
+                    justify-self: center;
 
                         h3 {
                             margin: 8px; /* Mise en page de l'élément */
+                            margin-right: 0;
                             font-size: 1.2em; /* Police */
                             font-weight: 400; /* Police */
+                            align-self: center;
+                            justify-self: center;
+                            text-align: center;
+                        }
+
+                        #loading-dots{
+                            display: flex;
+                            flex-direction: row;
+                            align-self: center;
+                            justify-self: center;
+                            text-align: center;
+                            padding-top: 7px;
+                        }
+
+                        #loading-dots > div{
+                            width: 2px;
+                            height: 2px;
+                            margin-left: 0;
+                            background-color: $secondary-color;
+                            border-radius: 50%;
+                            display: inline-block;
+                            animation: 1s bounce infinite ease-in-out both;
+                        }
+                        #loading-dots #bounce{
+                            animation-delay: -0.35s;    
+                            width: 2px;
+                            height: 2px;
+                            margin-left: 2px;
+                        }
+    
+                        #loading-dots #bounce2{
+                            animation-delay: -0.15s;
+                            width: 2px;
+                            height: 2px;
+                            margin-left: 2px;
+                        }
+
+                        #loading-dots #bounce3{
+                            width: 2px;
+                            height: 2px;
+                            margin-left: 2px;
+                        }
+    
+                        @keyframes bounce {
+                            0%{
+                                transform: scale(0);
+                            }
+                            40%{
+                                transform: scale(1);
+                            }
                         }
                 }
         }

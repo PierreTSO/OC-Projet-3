@@ -356,8 +356,8 @@ header h1 a {
   /* Mixins pour les bordures arrondies du boutons */
   margin-bottom: 20px;
   /* Mise en page de l'élément */
-  min-width: 170px;
-  max-width: 170px;
+  min-width: 150px;
+  max-width: 150px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -368,15 +368,102 @@ header h1 a {
 #main-homepage #bouton-prochainement a {
   color: #fdcb46;
   /* Police */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
 }
 
 #main-homepage #bouton-prochainement a h3 {
   margin: 8px;
   /* Mise en page de l'élément */
+  margin-right: 0;
   font-size: 1.2em;
   /* Police */
   font-weight: 400;
   /* Police */
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+}
+
+#main-homepage #bouton-prochainement a #loading-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  text-align: center;
+  padding-top: 7px;
+}
+
+#main-homepage #bouton-prochainement a #loading-dots > div {
+  width: 2px;
+  height: 2px;
+  margin-left: 0;
+  background-color: #fdcb46;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-animation: 1s bounce infinite ease-in-out both;
+          animation: 1s bounce infinite ease-in-out both;
+}
+
+#main-homepage #bouton-prochainement a #loading-dots #bounce {
+  -webkit-animation-delay: -0.35s;
+          animation-delay: -0.35s;
+  width: 2px;
+  height: 2px;
+  margin-left: 2px;
+}
+
+#main-homepage #bouton-prochainement a #loading-dots #bounce2 {
+  -webkit-animation-delay: -0.15s;
+          animation-delay: -0.15s;
+  width: 2px;
+  height: 2px;
+  margin-left: 2px;
+}
+
+#main-homepage #bouton-prochainement a #loading-dots #bounce3 {
+  width: 2px;
+  height: 2px;
+  margin-left: 2px;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 /* ---------------------------------------- */
