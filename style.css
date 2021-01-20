@@ -574,284 +574,6 @@ footer :visited {
 }
 
 /* ---------------------------------------- */
-/* ==       MEDIAS QUERIS        */
-/*---------------------------------------- */
-/* /* small tablet styles */
-@media screen and (min-width: 768px) {
-  header h1 {
-    font-size: 50px;
-  }
-  #main-homepage {
-    width: 100%;
-    margin-bottom: 85px;
-  }
-  #main-homepage nav {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: (auto)[2];
-        grid-template-rows: repeat(2, auto);
-    width: 100%;
-    max-width: none;
-    min-width: none;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 12;
-    grid-column: 1/13;
-  }
-  #main-homepage nav #menu1 {
-    -ms-grid-row: 1;
-    grid-row: 1;
-    min-width: 320px;
-    max-width: 400px;
-    height: 400px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  #main-homepage nav #menu2 {
-    -ms-grid-row: 1;
-    grid-row: 1;
-    min-width: 320px;
-    max-width: 400px;
-    height: 400px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  #main-homepage nav #menu3 {
-    -ms-grid-row: 2;
-    grid-row: 2;
-    min-width: 320px;
-    max-width: 400px;
-    height: 400px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  #main-homepage nav #menu4 {
-    -ms-grid-row: 2;
-    grid-row: 2;
-    min-width: 320px;
-    max-width: 400px;
-    height: 400px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  #main-homepage #bouton-prochainement {
-    margin-bottom: 15px;
-    min-width: 300px;
-    max-width: 300px;
-  }
-  #main-homepage #bouton-prochainement a h3 {
-    font-size: 20px;
-    margin-left: 50px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots {
-    padding-top: 8px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots #bounce {
-    margin-left: 6px;
-    width: 4px;
-    height: 4px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots #bounce2 {
-    width: 4px;
-    height: 4px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots #bounce3 {
-    width: 4px;
-    height: 4px;
-  }
-  footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -ms-grid-rows: none;
-        grid-template-rows: none;
-  }
-  footer #bouton-mentions-legales {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-column: 1/4;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 15px;
-  }
-  footer #bouton-contact {
-    -ms-grid-column: 10;
-    -ms-grid-column-span: 3;
-    grid-column: 10/13;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 15px;
-    -ms-grid-row: 1;
-    grid-row: 1;
-  }
-}
-
-/* large tablets & laptop styles */
-@media screen and (min-width: 960px) {
-  #main-homepage nav #menu1 {
-    min-width: 400px;
-    max-width: 450px;
-    height: 500px;
-  }
-  #main-homepage nav #menu1 #note-music {
-    font-size: 60px;
-  }
-  #main-homepage nav #menu1 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu1 h3 {
-    font-size: 30px;
-  }
-  #main-homepage nav #menu2 {
-    min-width: 400px;
-    max-width: 450px;
-    height: 500px;
-  }
-  #main-homepage nav #menu2 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu2 h3 {
-    font-size: 30px;
-  }
-  #main-homepage nav #menu3 {
-    min-width: 400px;
-    max-width: 450px;
-    height: 500px;
-  }
-  #main-homepage nav #menu3 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu3 h3 {
-    font-size: 30px;
-  }
-  #main-homepage nav #menu4 {
-    min-width: 400px;
-    max-width: 450px;
-    height: 500px;
-  }
-  #main-homepage nav #menu4 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu4 h3 {
-    font-size: 30px;
-  }
-  #main-homepage #bouton-prochainement {
-    min-width: 350px;
-    max-width: 350px;
-    margin-bottom: 20px;
-  }
-  #main-homepage #bouton-prochainement a h3 {
-    font-size: 30px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots {
-    padding-top: 16px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots #bounce {
-    margin-left: 8px;
-    width: 6px;
-    height: 6px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots #bounce2 {
-    width: 6px;
-    height: 6px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots #bounce3 {
-    width: 6px;
-    height: 6px;
-  }
-  footer #bouton-mentions-legales {
-    font-size: 20px;
-  }
-  footer #bouton-contact {
-    font-size: 20px;
-  }
-}
-
-/* desktop styles */
-@media screen and (min-width: 1200px) {
-  #main-homepage nav #menu1 {
-    min-width: 550px;
-    max-width: 600px;
-    height: 700px;
-  }
-  #main-homepage nav #menu1 #note-music {
-    font-size: 60px;
-  }
-  #main-homepage nav #menu1 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu1 h3 {
-    font-size: 30px;
-  }
-  #main-homepage nav #menu2 {
-    min-width: 550px;
-    max-width: 600px;
-    height: 700px;
-  }
-  #main-homepage nav #menu2 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu2 h3 {
-    font-size: 30px;
-  }
-  #main-homepage nav #menu3 {
-    min-width: 550px;
-    max-width: 600px;
-    height: 700px;
-  }
-  #main-homepage nav #menu3 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu3 h3 {
-    font-size: 30px;
-  }
-  #main-homepage nav #menu4 {
-    min-width: 550px;
-    max-width: 600px;
-    height: 700px;
-  }
-  #main-homepage nav #menu4 h2 {
-    font-size: 40px;
-  }
-  #main-homepage nav #menu4 h3 {
-    font-size: 30px;
-  }
-  #main-homepage #bouton-prochainement {
-    min-width: 350px;
-    max-width: 350px;
-    margin-bottom: 20px;
-  }
-  #main-homepage #bouton-prochainement a h3 {
-    font-size: 30px;
-  }
-  #main-homepage #bouton-prochainement a #loading-dots {
-    padding-top: 15px;
-  }
-  footer #bouton-mentions-legales {
-    font-size: 20px;
-  }
-  footer #bouton-contact {
-    font-size: 20px;
-  }
-}
-
-/* ---------------------------------------- */
 /* ==         MENTIONS LEGALES              */
 /*---------------------------------------- */
 #main-mentionlegales {
@@ -972,7 +694,6 @@ footer :visited {
   -ms-grid-row: 2;
   grid-row: 2;
   margin: 4px;
-  font-size: 16px;
 }
 
 #main-menu1 .entrees-menu .prix1 {
@@ -2061,5 +1782,349 @@ footer :visited {
   grid-row: 4;
   margin: 4px;
   font-weight: 800;
+}
+
+/* ---------------------------------------- */
+/* ==       MEDIAS QUERIS        */
+/*---------------------------------------- */
+/* /* small tablet styles */
+@media screen and (min-width: 768px) {
+  /* HEADER */
+  header h1 {
+    font-size: 50px;
+  }
+  /* HOMEPAGE */
+  #main-homepage {
+    width: 100%;
+    margin-bottom: 85px;
+  }
+  #main-homepage nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    width: 100%;
+    max-width: none;
+    min-width: none;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 12;
+    grid-column: 1/13;
+  }
+  #main-homepage nav #menu1 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage nav #menu2 {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage nav #menu3 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage nav #menu4 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    min-width: 320px;
+    max-width: 400px;
+    height: 400px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #main-homepage #bouton-prochainement {
+    margin-bottom: 15px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+  #main-homepage #bouton-prochainement a h3 {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots {
+    padding-top: 8px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce {
+    margin-left: 6px;
+    width: 4px;
+    height: 4px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce2 {
+    width: 4px;
+    height: 4px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce3 {
+    width: 4px;
+    height: 4px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -ms-grid-rows: none;
+        grid-template-rows: none;
+  }
+  footer #bouton-mentions-legales {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 15px;
+  }
+  footer #bouton-contact {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 3;
+    grid-column: 10/13;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    font-size: 15px;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  /* MENU 1 */
+  #main-menu1 {
+    max-width: 760px;
+    min-width: 700px;
+  }
+  #main-menu1 #titre-menu1 h2 {
+    font-size: 35px;
+  }
+  #main-menu1 .entrees-menu #titre-entrees-menu1 {
+    font-size: 25px;
+  }
+  #main-menu1 .entrees-menu p {
+    font-size: 20px;
+  }
+  #main-menu1 .plats-menu #titre-plats-menu1 {
+    font-size: 25px;
+  }
+  #main-menu1 .plats-menu p {
+    font-size: 20px;
+  }
+  #main-menu1 .dessert-menu #titre-desserts-menu1 {
+    font-size: 25px;
+  }
+  #main-menu1 .dessert-menu p {
+    font-size: 20px;
+  }
+  #main-menu1 #fin-menu1 h2 {
+    font-size: 25px;
+  }
+}
+
+/* large tablets & laptop styles */
+@media screen and (min-width: 960px) {
+  #main-homepage nav #menu1 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu1 #note-music {
+    font-size: 60px;
+  }
+  #main-homepage nav #menu1 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu1 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu2 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu2 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu2 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu3 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu3 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu3 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu4 {
+    min-width: 400px;
+    max-width: 450px;
+    height: 500px;
+  }
+  #main-homepage nav #menu4 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu4 h3 {
+    font-size: 30px;
+  }
+  #main-homepage #bouton-prochainement {
+    min-width: 350px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  #main-homepage #bouton-prochainement a h3 {
+    font-size: 30px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots {
+    padding-top: 16px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce {
+    margin-left: 8px;
+    width: 6px;
+    height: 6px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce2 {
+    width: 6px;
+    height: 6px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce3 {
+    width: 6px;
+    height: 6px;
+  }
+  footer #bouton-mentions-legales {
+    font-size: 20px;
+  }
+  footer #bouton-contact {
+    font-size: 20px;
+  }
+  /* MENU 1 */
+  #main-menu1 {
+    max-width: 760px;
+    min-width: 700px;
+    margin-bottom: 100px;
+  }
+  #main-menu1 #titre-menu1 h2 {
+    font-size: 40px;
+  }
+  #main-menu1 .entrees-menu #titre-entrees-menu1 {
+    font-size: 30px;
+  }
+  #main-menu1 .entrees-menu p {
+    font-size: 25px;
+  }
+  #main-menu1 .plats-menu #titre-plats-menu1 {
+    font-size: 30px;
+  }
+  #main-menu1 .plats-menu p {
+    font-size: 25px;
+  }
+  #main-menu1 .dessert-menu #titre-desserts-menu1 {
+    font-size: 30px;
+  }
+  #main-menu1 .dessert-menu p {
+    font-size: 25px;
+  }
+  #main-menu1 #fin-menu1 h2 {
+    font-size: 30px;
+  }
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+  #main-homepage nav #menu1 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu1 #note-music {
+    font-size: 60px;
+  }
+  #main-homepage nav #menu1 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu1 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu2 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu2 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu2 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu3 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu3 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu3 h3 {
+    font-size: 30px;
+  }
+  #main-homepage nav #menu4 {
+    min-width: 550px;
+    max-width: 600px;
+    height: 700px;
+  }
+  #main-homepage nav #menu4 h2 {
+    font-size: 40px;
+  }
+  #main-homepage nav #menu4 h3 {
+    font-size: 30px;
+  }
+  #main-homepage #bouton-prochainement {
+    min-width: 350px;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  #main-homepage #bouton-prochainement a h3 {
+    font-size: 30px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots {
+    padding-top: 15px;
+  }
+  footer #bouton-mentions-legales {
+    font-size: 20px;
+  }
+  footer #bouton-contact {
+    font-size: 20px;
+  }
+  /* MENU 1 */
+  #main-menu1 {
+    max-width: 900px;
+    min-width: 850px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
