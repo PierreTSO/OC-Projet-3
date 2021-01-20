@@ -652,6 +652,23 @@ footer :visited {
   }
   #main-homepage #bouton-prochainement a h3 {
     font-size: 20px;
+    margin-left: 50px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots {
+    padding-top: 10px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce {
+    margin-left: 8px;
+    width: 4px;
+    height: 4px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce2 {
+    width: 4px;
+    height: 4px;
+  }
+  #main-homepage #bouton-prochainement a #loading-dots #bounce3 {
+    width: 4px;
+    height: 4px;
   }
   footer {
     padding-top: 20px;
