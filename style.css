@@ -1942,6 +1942,84 @@ footer :visited {
   #main-menu1 #fin-menu1 h2 {
     font-size: 25px;
   }
+  /* MENU 2 */
+  #main-menu-carte2 {
+    max-width: 760px;
+    min-width: 700px;
+  }
+  #main-menu-carte2 #titre-menu h2 {
+    font-size: 35px;
+  }
+  #main-menu-carte2 .entrees-menu #titre-entrees-menu2 {
+    font-size: 25px;
+  }
+  #main-menu-carte2 .entrees-menu p {
+    font-size: 20px;
+  }
+  #main-menu-carte2 .plats-menu #titre-plats-menu2 {
+    font-size: 25px;
+  }
+  #main-menu-carte2 .plats-menu p {
+    font-size: 20px;
+  }
+  #main-menu-carte2 .dessert-menu #titre-desserts-menu2 {
+    font-size: 25px;
+  }
+  #main-menu-carte2 .dessert-menu p {
+    font-size: 20px;
+  }
+  /* MENU 3 */
+  #main-menu3 {
+    max-width: 760px;
+    min-width: 700px;
+  }
+  #main-menu3 #titre-menu h2 {
+    font-size: 35px;
+  }
+  #main-menu3 .entrees-menu #titre-entrees-menu3 {
+    font-size: 25px;
+  }
+  #main-menu3 .entrees-menu p {
+    font-size: 20px;
+  }
+  #main-menu3 .plats-menu #titre-plats-menu3 {
+    font-size: 25px;
+  }
+  #main-menu3 .plats-menu p {
+    font-size: 20px;
+  }
+  #main-menu3 .dessert-menu #titre-desserts-menu3 {
+    font-size: 25px;
+  }
+  #main-menu3 .dessert-menu p {
+    font-size: 20px;
+  }
+  /* MENU 4 */
+  #main-menu4 {
+    max-width: 760px;
+    min-width: 700px;
+  }
+  #main-menu4 #titre-menu h2 {
+    font-size: 35px;
+  }
+  #main-menu4 .entrees-menu #titre-entrees-menu4 {
+    font-size: 25px;
+  }
+  #main-menu4 .entrees-menu p {
+    font-size: 20px;
+  }
+  #main-menu4 .plats-menu #titre-plats-menu3 {
+    font-size: 25px;
+  }
+  #main-menu4 .plats-menu p {
+    font-size: 20px;
+  }
+  #main-menu4 .dessert-menu #titre-desserts-menu4 {
+    font-size: 25px;
+  }
+  #main-menu4 .dessert-menu p {
+    font-size: 20px;
+  }
 }
 
 /* large tablets & laptop styles */
@@ -2053,6 +2131,87 @@ footer :visited {
   #main-menu1 #fin-menu1 h2 {
     font-size: 30px;
   }
+  /* MENU 2 */
+  #main-menu-carte2 {
+    max-width: 760px;
+    min-width: 700px;
+    margin-bottom: 100px;
+  }
+  #main-menu-carte2 #titre-menu h2 {
+    font-size: 40px;
+  }
+  #main-menu-carte2 .entrees-menu #titre-entrees-menu2 {
+    font-size: 30px;
+  }
+  #main-menu-carte2 .entrees-menu p {
+    font-size: 25px;
+  }
+  #main-menu-carte2 .plats-menu #titre-plats-menu2 {
+    font-size: 30px;
+  }
+  #main-menu-carte2 .plats-menu p {
+    font-size: 25px;
+  }
+  #main-menu-carte2 .dessert-menu #titre-desserts-menu2 {
+    font-size: 30px;
+  }
+  #main-menu-carte2 .dessert-menu p {
+    font-size: 25px;
+  }
+  /* MENU 3 */
+  #main-menu3 {
+    max-width: 760px;
+    min-width: 700px;
+    margin-bottom: 100px;
+  }
+  #main-menu3 #titre-menu h2 {
+    font-size: 40px;
+  }
+  #main-menu3 .entrees-menu #titre-entrees-menu3 {
+    font-size: 30px;
+  }
+  #main-menu3 .entrees-menu p {
+    font-size: 25px;
+  }
+  #main-menu3 .plats-menu #titre-plats-menu3 {
+    font-size: 30px;
+  }
+  #main-menu3 .plats-menu p {
+    font-size: 25px;
+  }
+  #main-menu3 .dessert-menu #titre-desserts-menu3 {
+    font-size: 30px;
+  }
+  #main-menu3 .dessert-menu p {
+    font-size: 25px;
+  }
+  /* MENU 4 */
+  #main-menu4 {
+    max-width: 760px;
+    min-width: 700px;
+    margin-bottom: 100px;
+  }
+  #main-menu4 #titre-menu h2 {
+    font-size: 40px;
+  }
+  #main-menu4 .entrees-menu #titre-entrees-menu4 {
+    font-size: 30px;
+  }
+  #main-menu4 .entrees-menu p {
+    font-size: 25px;
+  }
+  #main-menu4 .plats-menu #titre-plats-menu4 {
+    font-size: 30px;
+  }
+  #main-menu4 .plats-menu p {
+    font-size: 25px;
+  }
+  #main-menu4 .dessert-menu #titre-desserts-menu4 {
+    font-size: 30px;
+  }
+  #main-menu4 .dessert-menu p {
+    font-size: 25px;
+  }
 }
 
 /* desktop styles */
@@ -2123,6 +2282,21 @@ footer :visited {
   }
   /* MENU 1 */
   #main-menu1 {
+    max-width: 900px;
+    min-width: 850px;
+  }
+  /* MENU 2 */
+  #main-menu-carte2 {
+    max-width: 900px;
+    min-width: 850px;
+  }
+  /* MENU 3 */
+  #main-menu3 {
+    max-width: 900px;
+    min-width: 850px;
+  }
+  /* MENU 4 */
+  #main-menu4 {
     max-width: 900px;
     min-width: 850px;
   }

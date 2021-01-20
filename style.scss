@@ -1146,6 +1146,147 @@ footer {
         }
     }
 
+    /* MENU 2 */
+
+    #main-menu-carte2{
+
+        max-width: 760px;
+        min-width: 700px;
+
+        #titre-menu {     
+            h2 {  
+                font-size: 35px;
+            }
+        }
+    
+        .entrees-menu {
+    
+            #titre-entrees-menu2{
+                font-size: 25px;
+            }  
+            
+            p {
+                font-size: 20px;
+            }
+        }
+            
+        .plats-menu {
+    
+            #titre-plats-menu2{
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+        
+        .dessert-menu {
+            #titre-desserts-menu2{
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }   
+    
+    }
+
+    /* MENU 3 */
+
+    #main-menu3 {
+
+        max-width: 760px;
+        min-width: 700px;
+
+        #titre-menu {     
+            h2 {  
+                font-size: 35px;
+            }
+        }
+    
+        .entrees-menu {
+    
+            #titre-entrees-menu3{
+                font-size: 25px;
+            }  
+            
+            p {
+                font-size: 20px;
+            }
+        }
+            
+        .plats-menu {
+    
+            #titre-plats-menu3{
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+        
+        .dessert-menu {
+            #titre-desserts-menu3{
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }   
+    
+    }
+
+        /* MENU 4 */
+
+        #main-menu4 {
+
+            max-width: 760px;
+            min-width: 700px;
+    
+            #titre-menu {     
+                h2 {  
+                    font-size: 35px;
+                }
+            }
+        
+            .entrees-menu {
+        
+                #titre-entrees-menu4{
+                    font-size: 25px;
+                }  
+                
+                p {
+                    font-size: 20px;
+                }
+            }
+                
+            .plats-menu {
+        
+                #titre-plats-menu3{
+                    font-size: 25px;
+                }
+    
+                p {
+                    font-size: 20px;
+                }
+            }
+            
+            .dessert-menu {
+                #titre-desserts-menu4{
+                    font-size: 25px;
+                }
+    
+                p {
+                    font-size: 20px;
+                }
+            }   
+        
+        }
+
 
 }
         
@@ -1319,6 +1460,150 @@ footer {
         }
     }
 
+       /* MENU 2 */
+
+       #main-menu-carte2{
+
+        max-width: 760px;
+        min-width: 700px;
+        margin-bottom: 100px;
+
+        #titre-menu {     
+            h2 {  
+                font-size: 40px;
+            }
+        }
+    
+        .entrees-menu {
+    
+            #titre-entrees-menu2{
+                font-size: 30px;
+            }  
+            
+            p {
+                font-size: 25px;
+            }
+        }
+            
+        .plats-menu {
+    
+            #titre-plats-menu2{
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+        
+        .dessert-menu {
+            #titre-desserts-menu2{
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }   
+    
+    }
+
+        /* MENU 3 */
+
+        #main-menu3 {
+
+            max-width: 760px;
+            min-width: 700px;
+            margin-bottom: 100px;
+    
+            #titre-menu {     
+                h2 {  
+                    font-size: 40px;
+                }
+            }
+        
+            .entrees-menu {
+        
+                #titre-entrees-menu3{
+                    font-size: 30px;
+                }  
+                
+                p {
+                    font-size: 25px;
+                }
+            }
+                
+            .plats-menu {
+        
+                #titre-plats-menu3{
+                    font-size: 30px;
+                }
+    
+                p {
+                    font-size: 25px;
+                }
+            }
+            
+            .dessert-menu {
+                #titre-desserts-menu3{
+                    font-size: 30px;
+                }
+    
+                p {
+                    font-size: 25px;
+                }
+            }   
+        
+        }
+
+        /* MENU 4 */
+
+        #main-menu4 {
+
+            max-width: 760px;
+            min-width: 700px;
+            margin-bottom: 100px;
+            
+            #titre-menu {     
+                h2 {  
+                    font-size: 40px;
+                }
+            }
+                
+            .entrees-menu {
+                
+                #titre-entrees-menu4{
+                    font-size: 30px;
+                }  
+                        
+                p {
+                    font-size: 25px;
+                }
+            }
+                        
+            .plats-menu {
+                
+            #titre-plats-menu4{
+                font-size: 30px;
+                }
+            
+            p {
+                font-size: 25px;
+                }
+            }
+                    
+            .dessert-menu {
+                #titre-desserts-menu4{
+                    font-size: 30px;
+                 }
+            
+                p {
+                font-size: 25px;
+                }
+            }   
+                
+        }
+
 }
 
 /* desktop styles */
@@ -1424,5 +1709,28 @@ footer {
         max-width: 900px;
         min-width: 850px;
     }
+
+    /* MENU 2 */
+
+    #main-menu-carte2 {
+        max-width: 900px;
+        min-width: 850px;
+    }
+
+      /* MENU 3 */
+
+      #main-menu3 {
+        max-width: 900px;
+        min-width: 850px;
+    }
+
+      /* MENU 4 */
+
+      #main-menu4 {
+        max-width: 900px;
+        min-width: 850px;
+    }
+
+
 
 } 
