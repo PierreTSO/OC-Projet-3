@@ -440,11 +440,11 @@ footer {
                 }
 
                 #loading-dots{
-                    padding-top: 10px;
+                    padding-top: 8px;
                 }
 
                 #loading-dots #bounce{
-                    margin-left: 8px;
+                    margin-left: 6px;
                     width: 4px;
                     height: 4px;
                 }
@@ -566,6 +566,26 @@ footer {
                     h3{
                         font-size: 30px;
                     }
+
+                    #loading-dots{
+                        padding-top: 16px;
+                    }
+    
+                    #loading-dots #bounce{
+                        margin-left: 8px;
+                        width: 6px;
+                        height: 6px;
+                    }
+    
+                    #loading-dots #bounce2{
+                        width: 6px;
+                        height: 6px;
+                    }
+    
+                    #loading-dots #bounce3{
+                        width: 6px;
+                        height: 6px;
+                    }
                 }
             }
         }
@@ -660,6 +680,11 @@ footer {
                 h3{
                     font-size: 30px;
                 }
+
+                #loading-dots{
+                    padding-top: 15px;
+                }
+
             }
         }
     }
