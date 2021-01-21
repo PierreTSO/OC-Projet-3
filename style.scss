@@ -372,6 +372,7 @@ footer {
 #main-mentionlegales {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    margin-bottom: 100px;
         h2, p, h3, ul, li {
             grid-column: 2/12;
             display: flex;
@@ -382,18 +383,28 @@ footer {
         h2 {
             text-align: center;
             color: $primary-color;
-            font-size: 2em;
+            font-size: 30px;
         }
 
         h3 {
             color: $secondary-color;
             text-decoration: underline;
             margin-bottom: 5px;
+            font-size: 25px;
+        }
+
+        ul {
+            font-size: 16px;
+        }
+
+        li:nth-child(1) {
+            margin-top: 16px;
         }
 
         p {
             text-align: justify;
             margin-bottom: 5px;
+            font-size: 16px;
         }
 }
 
@@ -1287,6 +1298,30 @@ footer {
         
         }
 
+    /* ---------------------------------------- */
+/* ==         MENTIONS LEGALES              */
+/*---------------------------------------- */
+
+    #main-mentionlegales {
+        
+            h2 {
+                font-size: 35px;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+
+            ul {
+                font-size: 20px;
+            }
+
+            p {
+
+                font-size: 20px;
+            }
+    }
+
 
 }
         
@@ -1603,6 +1638,32 @@ footer {
             }   
                 
         }
+
+/* ---------------------------------------- */
+/* ==         MENTIONS LEGALES              */
+/*---------------------------------------- */
+
+    #main-mentionlegales {
+
+        margin-bottom: 120px;
+        
+        h2 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        ul {
+            font-size: 25px;
+        }
+
+        p {
+
+            font-size: 25px;
+        }
+    }
 
 }
 

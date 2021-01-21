@@ -581,6 +581,7 @@ footer :visited {
   display: grid;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
+  margin-bottom: 100px;
 }
 
 #main-mentionlegales h2, #main-mentionlegales p, #main-mentionlegales h3, #main-mentionlegales ul, #main-mentionlegales li {
@@ -602,18 +603,28 @@ footer :visited {
 #main-mentionlegales h2 {
   text-align: center;
   color: #579c87;
-  font-size: 2em;
+  font-size: 30px;
 }
 
 #main-mentionlegales h3 {
   color: #fdcb46;
   text-decoration: underline;
   margin-bottom: 5px;
+  font-size: 25px;
+}
+
+#main-mentionlegales ul {
+  font-size: 16px;
+}
+
+#main-mentionlegales li:nth-child(1) {
+  margin-top: 16px;
 }
 
 #main-mentionlegales p {
   text-align: justify;
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 /* ---------------------------------------- */
@@ -2020,6 +2031,21 @@ footer :visited {
   #main-menu4 .dessert-menu p {
     font-size: 20px;
   }
+  /* ---------------------------------------- */
+  /* ==         MENTIONS LEGALES              */
+  /*---------------------------------------- */
+  #main-mentionlegales h2 {
+    font-size: 35px;
+  }
+  #main-mentionlegales h3 {
+    font-size: 25px;
+  }
+  #main-mentionlegales ul {
+    font-size: 20px;
+  }
+  #main-mentionlegales p {
+    font-size: 20px;
+  }
 }
 
 /* large tablets & laptop styles */
@@ -2210,6 +2236,24 @@ footer :visited {
     font-size: 30px;
   }
   #main-menu4 .dessert-menu p {
+    font-size: 25px;
+  }
+  /* ---------------------------------------- */
+  /* ==         MENTIONS LEGALES              */
+  /*---------------------------------------- */
+  #main-mentionlegales {
+    margin-bottom: 120px;
+  }
+  #main-mentionlegales h2 {
+    font-size: 40px;
+  }
+  #main-mentionlegales h3 {
+    font-size: 30px;
+  }
+  #main-mentionlegales ul {
+    font-size: 25px;
+  }
+  #main-mentionlegales p {
     font-size: 25px;
   }
 }
