@@ -167,6 +167,17 @@ header h1 a {
   /* Mise en forme des box Menus */
 }
 
+#main-homepage nav #menu1 :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
 #main-homepage nav #menu1 #note-music {
   background-color: #8f1e29;
   background-image: linear-gradient(120deg, #8f1e29, #fcb095);
@@ -224,6 +235,17 @@ header h1 a {
   /* Mise en forme des box Menus */
 }
 
+#main-homepage nav #menu2 :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
 #main-homepage nav #menu2 h2 {
   background-color: #d88b45;
   background-image: linear-gradient(120deg, #d88b45, #9360fe);
@@ -266,6 +288,17 @@ header h1 a {
   /* Mise en forme des box Menus */
   margin: 20px;
   /* Mise en forme des box Menus */
+}
+
+#main-homepage nav #menu3 :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 #main-homepage nav #menu3 h2 {
@@ -316,6 +349,17 @@ header h1 a {
   /* Mise en forme des box Menus */
   margin: 20px;
   /* Mise en forme des box Menus */
+}
+
+#main-homepage nav #menu4 :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 #main-homepage nav #menu4 h2 {

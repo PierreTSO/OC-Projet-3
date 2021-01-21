@@ -142,8 +142,13 @@ header {
                     justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
-                    
-                    
+
+                    :hover{
+                        transform: scale(1.1);
+                        transition-duration: 1s;
+                        transition-timing-function: linear;
+                        transition-delay: 1s;
+                    }
 
                         #note-music {
                             @include gradient-text($color-radient-note-first, $color-radient-note-second); /* Voir dégradé note music avec Séverine */
@@ -173,6 +178,13 @@ header {
                     justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
+
+                    :hover{
+                        transform: scale(1.1);
+                        transition-duration: 1s;
+                        transition-timing-function: linear;
+                        transition-delay: 1s;
+                    }
                     
                     
                        h2 {
@@ -194,6 +206,13 @@ header {
                     justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
+
+                    :hover{
+                        transform: scale(1.1);
+                        transition-duration: 1s;
+                        transition-timing-function: linear;
+                        transition-delay: 1s;
+                    }
                     
                     
                         h2 {
@@ -220,6 +239,13 @@ header {
                     justify-content: center; /* Mise en page avec centralisation des éléments dans les box Menus */
                     height: 300px; /* Mise en forme des box Menus */
                     margin: 20px; /* Mise en forme des box Menus */
+
+                    :hover{
+                        transform: scale(1.1);
+                        transition-duration: 1s;
+                        transition-timing-function: linear;
+                        transition-delay: 1s;
+                    }
                     
                     
                         h2 {
@@ -234,6 +260,7 @@ header {
                             font-size: 20px;
                             
                         }
+   
                 }
 
         }
