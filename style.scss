@@ -1011,9 +1011,50 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background-color: #0228dd;
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 18%;
+            max-width: 18%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background-color: #0228dd;
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 18%;
+            max-width: 18%;
+            transition: width 2s;
+        }
+
         #titre-entrees-menu3{
             @include grid-titre-menu;
             font-size: 20px;
+            position: relative;
+            align-self: center;
         }
     
         .entree1 {
@@ -1046,9 +1087,50 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background-color: #0670f3;
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 18%;
+            max-width: 18%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background-color: #0670f3;
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 18%;
+            max-width: 18%;
+            transition: width 2s;
+        }
+
         #titre-plats-menu3{
             @include grid-titre-menu;
             font-size: 20px;
+            position: relative;
+            align-self: center;
         }
     
         .plat1 {
@@ -1081,9 +1163,50 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background-color: #229df9;
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 18%;
+            max-width: 18%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background-color: #229df9;
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 18%;
+            max-width: 18%;
+            transition: width 2s;
+        }
+
         #titre-desserts-menu3{
             @include grid-titre-menu;
-            font-size: 20px
+            font-size: 20px;
+            position: relative;
+            align-self: center;
         }
     
         .dessert1 {
