@@ -1196,6 +1196,55 @@ footer :visited {
   font-size: 16px;
 }
 
+#main-menu-carte2 .entrees-menu :nth-child(1)::before {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-left: 9%;
+  height: 10%;
+  background-color: #c67412;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#main-menu-carte2 .entrees-menu :hover::before {
+  width: 18%;
+  max-width: 18%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+#main-menu-carte2 .entrees-menu :nth-child(1)::after {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-right: 9%;
+  height: 10%;
+  background-color: #c67412;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#main-menu-carte2 .entrees-menu :hover::after {
+  width: 18%;
+  max-width: 18%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 #main-menu-carte2 .entrees-menu #titre-entrees-menu2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1212,6 +1261,9 @@ footer :visited {
   text-align: center;
   color: #c67412;
   font-size: 20px;
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 #main-menu-carte2 .entrees-menu .entree1 {
@@ -1284,6 +1336,55 @@ footer :visited {
   font-size: 16px;
 }
 
+#main-menu-carte2 .plats-menu :nth-child(1)::before {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-left: 9%;
+  height: 10%;
+  background-color: #a56799;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#main-menu-carte2 .plats-menu :hover::before {
+  width: 18%;
+  max-width: 18%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+#main-menu-carte2 .plats-menu :nth-child(1)::after {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-right: 9%;
+  height: 10%;
+  background-color: #a56799;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#main-menu-carte2 .plats-menu :hover::after {
+  width: 18%;
+  max-width: 18%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 #main-menu-carte2 .plats-menu #titre-plats-menu2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1300,6 +1401,9 @@ footer :visited {
   text-align: center;
   color: #a56799;
   font-size: 20px;
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 #main-menu-carte2 .plats-menu .plat1 {
@@ -1372,6 +1476,55 @@ footer :visited {
   font-size: 16px;
 }
 
+#main-menu-carte2 .dessert-menu :nth-child(1)::before {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-left: 9%;
+  height: 10%;
+  background-color: #6e4ccc;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#main-menu-carte2 .dessert-menu :hover::before {
+  width: 18%;
+  max-width: 18%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+#main-menu-carte2 .dessert-menu :nth-child(1)::after {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-right: 9%;
+  height: 10%;
+  background-color: #6e4ccc;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#main-menu-carte2 .dessert-menu :hover::after {
+  width: 18%;
+  max-width: 18%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 #main-menu-carte2 .dessert-menu #titre-desserts-menu2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1388,6 +1541,9 @@ footer :visited {
   text-align: center;
   color: #6e4ccc;
   font-size: 20px;
+  position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 #main-menu-carte2 .dessert-menu .dessert1 {
