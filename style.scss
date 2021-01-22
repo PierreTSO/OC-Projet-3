@@ -1262,12 +1262,59 @@ footer {
     .entrees-menu {
         @include grid-menu(4);
         font-size: 16px;
+
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background: rgb(187,252,125);
+            background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            background: -webkit-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            background: linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 22%;
+            max-width: 22%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background: rgb(65,150,61);
+            background: -moz-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            background: -webkit-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            background: linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 22%;
+            max-width: 22%;
+            transition: width 2s;
+        }
        
 
         #titre-entrees-menu4{
             @include grid-titre-menu;
             font-size: 20px;
             font-weight: 300;
+            position: relative;
+            align-self: center;
         }
     
         .entree1 {
@@ -1301,12 +1348,59 @@ footer {
     .plats-menu {
         @include grid-menu(4);
         font-size: 16px;
+
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background: rgb(187,252,125);
+            background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            background: -webkit-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            background: linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 22%;
+            max-width: 22%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background: rgb(65,150,61);
+            background: -moz-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            background: -webkit-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            background: linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 22%;
+            max-width: 22%;
+            transition: width 2s;
+        }
         
 
         #titre-plats-menu4{
             @include grid-titre-menu;
             font-size: 20px;
             font-weight: 300;
+            position: relative;
+            align-self: center;
         }
     
         .plat1 {
@@ -1340,12 +1434,59 @@ footer {
     .dessert-menu {
         @include grid-menu(4);
         font-size: 16px;
+
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background: rgb(187,252,125);
+            background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            background: -webkit-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            background: linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 22%;
+            max-width: 22%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background: rgb(65,150,61);
+            background: -moz-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            background: -webkit-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            background: linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 22%;
+            max-width: 22%;
+            transition: width 2s;
+        }
         
 
         #titre-desserts-menu4{
             @include grid-titre-menu;
             font-size: 20px;
             font-weight: 300;
+            position: relative;
+            align-self: center;
         }
     
         .dessert1 {
