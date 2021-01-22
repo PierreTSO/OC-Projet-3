@@ -725,6 +725,55 @@ footer :visited {
   font-size: 16px;
 }
 
+#main-menu1 .entrees-menu :nth-child(1)::before {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-left: 9%;
+  height: 10%;
+  background-color: #532b30;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#main-menu1 .entrees-menu :hover::before {
+  width: 20%;
+  max-width: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+#main-menu1 .entrees-menu :nth-child(1)::after {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-right: 9%;
+  height: 10%;
+  background-color: #532b30;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#main-menu1 .entrees-menu :hover::after {
+  width: 20%;
+  max-width: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 #main-menu1 .entrees-menu #titre-entrees-menu1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -740,6 +789,9 @@ footer :visited {
   grid-column: 1/13;
   text-align: center;
   font-size: 20px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
 }
 
 #main-menu1 .entrees-menu .entree1 {
@@ -829,6 +881,55 @@ footer :visited {
   font-size: 16px;
 }
 
+#main-menu1 .plats-menu :nth-child(1)::before {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-left: 9%;
+  height: 10%;
+  background-color: #532b30;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#main-menu1 .plats-menu :hover::before {
+  width: 20%;
+  max-width: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+#main-menu1 .plats-menu :nth-child(1)::after {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-right: 9%;
+  height: 10%;
+  background-color: #532b30;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#main-menu1 .plats-menu :hover::after {
+  width: 20%;
+  max-width: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 #main-menu1 .plats-menu #titre-plats-menu1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -844,6 +945,9 @@ footer :visited {
   grid-column: 1/13;
   text-align: center;
   font-size: 20px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
 }
 
 #main-menu1 .plats-menu .plat1 {
@@ -914,6 +1018,55 @@ footer :visited {
   font-size: 16px;
 }
 
+#main-menu1 .dessert-menu :nth-child(1)::before {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-left: 9%;
+  height: 10%;
+  background-color: #532b30;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#main-menu1 .dessert-menu :hover::before {
+  width: 20%;
+  max-width: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+#main-menu1 .dessert-menu :nth-child(1)::after {
+  content: '';
+  width: 0%;
+  margin: 2%;
+  margin-right: 9%;
+  height: 10%;
+  background-color: #532b30;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#main-menu1 .dessert-menu :hover::after {
+  width: 20%;
+  max-width: 20%;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
 #main-menu1 .dessert-menu #titre-desserts-menu1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -929,6 +1082,9 @@ footer :visited {
   grid-column: 1/13;
   text-align: center;
   font-size: 20px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
 }
 
 #main-menu1 .dessert-menu .dessert1 {

@@ -472,9 +472,53 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
+            :nth-child(1)::before {
+                content: '';
+                width: 0%;
+                margin: 2%;
+                margin-left: 9%;
+                height: 10%;
+                background-color: $font-color-menu1;
+                position: absolute;
+                display: flex;
+                align-self: flex-start;
+                align-items: center;
+                transition: width .3s;
+            }
+
+            :hover::before {
+                width: 20%;
+                max-width: 20%;
+                transition: width 2s;
+            }
+   
+
+            :nth-child(1)::after {
+                content: '';
+                width: 0%;
+                margin: 2%;
+                margin-right: 9%;
+                height: 10%;
+                background-color: $font-color-menu1;
+                position: absolute;
+                display: flex;
+                align-self: flex-end;
+            }
+
+            :hover::after {
+                width: 20%;
+                max-width: 20%;
+                transition: width 2s;
+            }
+
+
+
         #titre-entrees-menu1{
             @include grid-titre-menu;
             font-size: 20px;
+            align-self: center;
+            position: relative;
+
         }
     
         .entree1 {
@@ -519,9 +563,50 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background-color: $font-color-menu1;
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 20%;
+            max-width: 20%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background-color: $font-color-menu1;
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 20%;
+            max-width: 20%;
+            transition: width 2s;
+        }
+
         #titre-plats-menu1{
             @include grid-titre-menu;
             font-size: 20px;
+            align-self: center;
+            position: relative;
         }
     
         .plat1 {
@@ -558,9 +643,50 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
+        :nth-child(1)::before {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-left: 9%;
+            height: 10%;
+            background-color: $font-color-menu1;
+            position: absolute;
+            display: flex;
+            align-self: flex-start;
+            align-items: center;
+            transition: width .3s;
+        }
+
+        :hover::before {
+            width: 20%;
+            max-width: 20%;
+            transition: width 2s;
+        }
+
+
+        :nth-child(1)::after {
+            content: '';
+            width: 0%;
+            margin: 2%;
+            margin-right: 9%;
+            height: 10%;
+            background-color: $font-color-menu1;
+            position: absolute;
+            display: flex;
+            align-self: flex-end;
+        }
+
+        :hover::after {
+            width: 20%;
+            max-width: 20%;
+            transition: width 2s;
+        }
+
         #titre-desserts-menu1{
             @include grid-titre-menu;
             font-size: 20px;
+            align-self: center;
+            position: relative;
         }
     
         .dessert1 {
