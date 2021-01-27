@@ -102,12 +102,14 @@ body {
 header {
     display: grid; /* Mise en page de l'élément */
     grid-template-columns: repeat(3, 1fr); /* Mise en page de l'élément */
+
     background-color: $primary-color;
     width: 100%;
 
     h1 {
         text-align: center; /* Mise en page de l'élément */
         grid-column: 2/3; /* Mise en page de l'élément */
+        
         color: $secondary-color; 
         font-family: $font-principal;
         font-size: 3em;
@@ -2336,3 +2338,13 @@ footer {
 
 
 } 
+
+@media only screen and (max-width: 2000px) {
+
+    main#main-homepage {
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
