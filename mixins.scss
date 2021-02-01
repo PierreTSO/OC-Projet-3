@@ -93,11 +93,11 @@
 }
 
 @mixin grid-titre-menu {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     grid-row: 1;
-    grid-column: 1/13;
-    text-align: center;
+    grid-column: 6/8;
+    /* text-align: center; */
 }
 
 @mixin grid-plat($row) {

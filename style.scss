@@ -448,6 +448,8 @@ footer {
     background-color: $menu1;
     font-family: $font-menu-1;
     margin-bottom: 95px;
+
+
     #titre-menu1 {
         display: flex;
         flex-direction: column;
@@ -474,7 +476,8 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
-            :nth-child(1)::before {
+
+/*             :nth-child(1)::before {
                 content: '';
                 width: 0%;
                 margin: 2%;
@@ -511,17 +514,49 @@ footer {
                 width: 20%;
                 max-width: 20%;
                 transition: width 2s;
-            }
+            } */
 
 
 
         #titre-entrees-menu1{
-            @include grid-titre-menu;
+            /* @include grid-titre-menu; */
             font-size: 20px;
-            align-self: center;
-            position: relative;
-
+            grid-row: 1;
+            grid-column: 6/8;
+            text-align: center;
+            /* align-self: center;
+            position: relative; */
         }
+
+        
+        .barre-laterale-gauche{
+            background-color: $font-color-menu1;
+            grid-row: 1;
+            grid-column: 2/5;
+            height: 3px;
+            width: 100%;
+            /* vertical-align: middle;
+            line-height: 100px; */
+            transition: width .3s;
+            display: flex;
+            align-self: center;
+        }
+
+
+
+        .barre-laterale-droite {
+            background-color: $font-color-menu1;
+            grid-row: 1;
+            grid-column: 9/12;
+            height: 3px;
+            width: 100%;
+            /* vertical-align: middle;
+            line-height: 100px; */
+            transition: width .3s;
+            display: flex;
+            align-self: center;
+        }
+    
     
         .entree1 {
             @include grid-plat(2);
@@ -565,50 +600,41 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
-            background-color: $font-color-menu1;
-            position: absolute;
-            display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
-        }
-
-        :hover::before {
-            width: 20%;
-            max-width: 20%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
-            background-color: $font-color-menu1;
-            position: absolute;
-            display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 20%;
-            max-width: 20%;
-            transition: width 2s;
-        }
 
         #titre-plats-menu1{
-            @include grid-titre-menu;
+            /* @include grid-titre-menu; */
             font-size: 20px;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+            /* align-self: center;
+            position: relative; */
+        }
+
+        .barre-laterale-gauche{
+            background-color: $font-color-menu1;
+            grid-row: 1;
+            grid-column: 2/5;
+            height: 3px;
+            width: 100%;
+            /* vertical-align: middle;
+            line-height: 100px; */
+            transition: width .3s;
+            display: flex;
             align-self: center;
-            position: relative;
+        }
+
+        .barre-laterale-droite {
+            background-color: $font-color-menu1;
+            grid-row: 1;
+            grid-column: 9/12;
+            height: 3px;
+            width: 100%;
+            /* vertical-align: middle;
+            line-height: 100px; */
+            transition: width .3s;
+            display: flex;
+            align-self: center;
         }
     
         .plat1 {
@@ -645,50 +671,41 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
-            background-color: $font-color-menu1;
-            position: absolute;
-            display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
-        }
-
-        :hover::before {
-            width: 20%;
-            max-width: 20%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
-            background-color: $font-color-menu1;
-            position: absolute;
-            display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 20%;
-            max-width: 20%;
-            transition: width 2s;
-        }
 
         #titre-desserts-menu1{
-            @include grid-titre-menu;
+            /* @include grid-titre-menu; */
             font-size: 20px;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+            /* align-self: center;
+            position: relative; */
+        }
+
+        .barre-laterale-gauche{
+            background-color: $font-color-menu1;
+            grid-row: 1;
+            grid-column: 2/5;
+            height: 3px;
+            width: 100%;
+            /* vertical-align: middle;
+            line-height: 100px; */
+            transition: width .3s;
+            display: flex;
             align-self: center;
-            position: relative;
+        }
+
+        .barre-laterale-droite {
+            background-color: $font-color-menu1;
+            grid-row: 1;
+            grid-column: 9/12;
+            height: 3px;
+            width: 100%;
+            /* vertical-align: middle;
+            line-height: 100px; */
+            transition: width .3s;
+            display: flex;
+            align-self: center;
         }
     
         .dessert1 {
