@@ -938,53 +938,31 @@ footer :visited {
   font-size: 16px;
 }
 
-#main-menu-carte2 .entrees-menu :nth-child(1)::before {
-  content: '';
-  width: 0%;
-  margin: 2%;
-  margin-left: 9%;
-  height: 10%;
-  background-color: #c67412;
-  position: absolute;
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  transition: width .3s;
-}
-
-#main-menu-carte2 .entrees-menu :hover::before {
-  width: 18%;
-  max-width: 18%;
-  transition: width 2s;
-}
-
-#main-menu-carte2 .entrees-menu :nth-child(1)::after {
-  content: '';
-  width: 0%;
-  margin: 2%;
-  margin-right: 9%;
-  height: 10%;
-  background-color: #c67412;
-  position: absolute;
-  display: flex;
-  align-self: flex-end;
-}
-
-#main-menu-carte2 .entrees-menu :hover::after {
-  width: 18%;
-  max-width: 18%;
-  transition: width 2s;
-}
-
 #main-menu-carte2 .entrees-menu #titre-entrees-menu2 {
-  /* display: flex;
-    flex-direction: column; */
-  grid-row: 1;
-  grid-column: 6/8;
-  /* text-align: center; */
-  color: #c67412;
   font-size: 20px;
-  position: relative;
+  grid-row: 1;
+  grid-column: 5/9;
+  text-align: center;
+  color: #c67412;
+}
+
+#main-menu-carte2 .entrees-menu .barre-laterale-gauche {
+  background-color: #c67412;
+  grid-row: 1;
+  grid-column: 2/4;
+  height: 3px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+#main-menu-carte2 .entrees-menu .barre-laterale-droite {
+  background-color: #c67412;
+  grid-row: 1;
+  grid-column: 10/12;
+  height: 3px;
+  width: 100%;
+  display: flex;
   align-self: center;
 }
 
@@ -1037,53 +1015,31 @@ footer :visited {
   font-size: 16px;
 }
 
-#main-menu-carte2 .plats-menu :nth-child(1)::before {
-  content: '';
-  width: 0%;
-  margin: 2%;
-  margin-left: 9%;
-  height: 10%;
-  background-color: #a56799;
-  position: absolute;
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  transition: width .3s;
-}
-
-#main-menu-carte2 .plats-menu :hover::before {
-  width: 18%;
-  max-width: 18%;
-  transition: width 2s;
-}
-
-#main-menu-carte2 .plats-menu :nth-child(1)::after {
-  content: '';
-  width: 0%;
-  margin: 2%;
-  margin-right: 9%;
-  height: 10%;
-  background-color: #a56799;
-  position: absolute;
-  display: flex;
-  align-self: flex-end;
-}
-
-#main-menu-carte2 .plats-menu :hover::after {
-  width: 18%;
-  max-width: 18%;
-  transition: width 2s;
-}
-
 #main-menu-carte2 .plats-menu #titre-plats-menu2 {
-  /* display: flex;
-    flex-direction: column; */
-  grid-row: 1;
-  grid-column: 6/8;
-  /* text-align: center; */
-  color: #a56799;
   font-size: 20px;
-  position: relative;
+  grid-row: 1;
+  grid-column: 5/9;
+  text-align: center;
+  color: #a56799;
+}
+
+#main-menu-carte2 .plats-menu .barre-laterale-gauche {
+  background-color: #a56799;
+  grid-row: 1;
+  grid-column: 2/4;
+  height: 3px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+#main-menu-carte2 .plats-menu .barre-laterale-droite {
+  background-color: #a56799;
+  grid-row: 1;
+  grid-column: 10/12;
+  height: 3px;
+  width: 100%;
+  display: flex;
   align-self: center;
 }
 
@@ -1136,53 +1092,31 @@ footer :visited {
   font-size: 16px;
 }
 
-#main-menu-carte2 .dessert-menu :nth-child(1)::before {
-  content: '';
-  width: 0%;
-  margin: 2%;
-  margin-left: 9%;
-  height: 10%;
-  background-color: #6e4ccc;
-  position: absolute;
-  display: flex;
-  align-self: flex-start;
-  align-items: center;
-  transition: width .3s;
-}
-
-#main-menu-carte2 .dessert-menu :hover::before {
-  width: 18%;
-  max-width: 18%;
-  transition: width 2s;
-}
-
-#main-menu-carte2 .dessert-menu :nth-child(1)::after {
-  content: '';
-  width: 0%;
-  margin: 2%;
-  margin-right: 9%;
-  height: 10%;
-  background-color: #6e4ccc;
-  position: absolute;
-  display: flex;
-  align-self: flex-end;
-}
-
-#main-menu-carte2 .dessert-menu :hover::after {
-  width: 18%;
-  max-width: 18%;
-  transition: width 2s;
-}
-
 #main-menu-carte2 .dessert-menu #titre-desserts-menu2 {
-  /* display: flex;
-    flex-direction: column; */
-  grid-row: 1;
-  grid-column: 6/8;
-  /* text-align: center; */
-  color: #6e4ccc;
   font-size: 20px;
-  position: relative;
+  grid-row: 1;
+  grid-column: 5/9;
+  text-align: center;
+  color: #6e4ccc;
+}
+
+#main-menu-carte2 .dessert-menu .barre-laterale-gauche {
+  background-color: #6e4ccc;
+  grid-row: 1;
+  grid-column: 2/4;
+  height: 3px;
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+#main-menu-carte2 .dessert-menu .barre-laterale-droite {
+  background-color: #6e4ccc;
+  grid-row: 1;
+  grid-column: 10/12;
+  height: 3px;
+  width: 100%;
+  display: flex;
   align-self: center;
 }
 
