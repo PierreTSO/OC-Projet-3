@@ -476,56 +476,25 @@ footer {
         color: $font-color-menu1;
         font-size: 16px;
 
-
-/*             :nth-child(1)::before {
-                content: '';
-                width: 0%;
-                margin: 2%;
-                margin-left: 9%;
-                height: 10%;
-                background-color: $font-color-menu1;
-                position: absolute;
-                display: flex;
-                align-self: flex-start;
-                align-items: center;
-                transition: width .3s;
-            }
-
-            :hover::before {
-                width: 20%;
-                max-width: 20%;
-                transition: width 2s;
-            }
-   
-
-            :nth-child(1)::after {
-                content: '';
-                width: 0%;
-                margin: 2%;
-                margin-right: 9%;
-                height: 10%;
-                background-color: $font-color-menu1;
-                position: absolute;
-                display: flex;
-                align-self: flex-end;
-            }
-
-            :hover::after {
-                width: 20%;
-                max-width: 20%;
-                transition: width 2s;
-            } */
-
-
-
         #titre-entrees-menu1{
-            /* @include grid-titre-menu; */
             font-size: 20px;
             grid-row: 1;
             grid-column: 6/8;
             text-align: center;
-            /* align-self: center;
-            position: relative; */
+        }
+
+        #titre-entrees-menu1::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $font-color-menu1;
+            transition: width .3s;
+        }
+        
+        
+        #titre-entrees-menu1:hover::after {
+            width: 100%;
         }
 
         
@@ -535,8 +504,6 @@ footer {
             grid-column: 2/5;
             height: 3px;
             width: 100%;
-            /* vertical-align: middle;
-            line-height: 100px; */
             transition: width .3s;
             display: flex;
             align-self: center;
@@ -550,8 +517,6 @@ footer {
             grid-column: 9/12;
             height: 3px;
             width: 100%;
-            /* vertical-align: middle;
-            line-height: 100px; */
             transition: width .3s;
             display: flex;
             align-self: center;
@@ -602,13 +567,24 @@ footer {
 
 
         #titre-plats-menu1{
-            /* @include grid-titre-menu; */
             font-size: 20px;
             grid-row: 1;
             grid-column: 5/9;
             text-align: center;
-            /* align-self: center;
-            position: relative; */
+        }
+
+        #titre-plats-menu1::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $font-color-menu1;
+            transition: width .3s;
+        }
+        
+        
+        #titre-plats-menu1:hover::after {
+            width: 100%;
         }
 
         .barre-laterale-gauche{
@@ -617,8 +593,6 @@ footer {
             grid-column: 2/5;
             height: 3px;
             width: 100%;
-            /* vertical-align: middle;
-            line-height: 100px; */
             transition: width .3s;
             display: flex;
             align-self: center;
@@ -630,8 +604,6 @@ footer {
             grid-column: 9/12;
             height: 3px;
             width: 100%;
-            /* vertical-align: middle;
-            line-height: 100px; */
             transition: width .3s;
             display: flex;
             align-self: center;
@@ -673,14 +645,26 @@ footer {
 
 
         #titre-desserts-menu1{
-            /* @include grid-titre-menu; */
             font-size: 20px;
             grid-row: 1;
             grid-column: 5/9;
             text-align: center;
-            /* align-self: center;
-            position: relative; */
         }
+
+        #titre-desserts-menu1::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $font-color-menu1;
+            transition: width .3s;
+        }
+        
+        
+        #titre-desserts-menu1:hover::after {
+            width: 100%;
+        }
+            
 
         .barre-laterale-gauche{
             background-color: $font-color-menu1;
@@ -688,8 +672,6 @@ footer {
             grid-column: 2/5;
             height: 3px;
             width: 100%;
-            /* vertical-align: middle;
-            line-height: 100px; */
             transition: width .3s;
             display: flex;
             align-self: center;
@@ -701,8 +683,6 @@ footer {
             grid-column: 9/12;
             height: 3px;
             width: 100%;
-            /* vertical-align: middle;
-            line-height: 100px; */
             transition: width .3s;
             display: flex;
             align-self: center;
@@ -781,6 +761,20 @@ footer {
         
         }
 
+        #titre-entrees-menu2::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $entree-menu-2;
+            transition: width .3s;
+        }
+        
+        
+        #titre-entrees-menu2:hover::after {
+            width: 100%;
+        }
+
         .barre-laterale-gauche{
             background-color: $entree-menu-2;
             grid-row: 1;
@@ -846,6 +840,19 @@ footer {
         
         }
 
+        #titre-plats-menu2::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $plats-menu-2;
+            transition: width .3s;
+        }
+        
+        #titre-plats-menu2:hover::after {
+            width: 100%;
+        }
+
         .barre-laterale-gauche{
             background-color: $plats-menu-2;
             grid-row: 1;
@@ -909,6 +916,19 @@ footer {
             text-align: center;
             color: $desserts-menu-2;
         
+        }
+
+        #titre-desserts-menu2::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: $desserts-menu-2;
+            transition: width .3s;
+        }
+        
+        #titre-desserts-menu2:hover::after {
+            width: 100%;
         }
 
         .barre-laterale-gauche{
@@ -983,6 +1003,20 @@ footer {
             text-align: center;
         }
 
+        #titre-entrees-menu3::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: black;
+            transition: width .3s;
+        }
+        
+        
+        #titre-entrees-menu3:hover::after {
+            width: 100%;
+        }
+
         .barre-laterale-gauche{
             background-color: #0228dd;
             grid-row: 1;
@@ -1040,6 +1074,20 @@ footer {
             text-align: center;
         }
 
+        #titre-plats-menu3::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: black;
+            transition: width .3s;
+        }
+        
+        
+        #titre-plats-menu3:hover::after {
+            width: 100%;
+        }
+
         .barre-laterale-gauche{
             background-color: #0670f3;
             grid-row: 1;
@@ -1095,6 +1143,20 @@ footer {
             grid-row: 1;
             grid-column: 5/9;
             text-align: center;
+        }
+
+        #titre-desserts-menu3::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: black;
+            transition: width .3s;
+        }
+        
+        
+        #titre-desserts-menu3:hover::after {
+            width: 100%;
         }
 
         .barre-laterale-gauche{
@@ -1179,6 +1241,20 @@ footer {
             font-weight: 300;
         }
 
+        #titre-entrees-menu4::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: black;
+            transition: width .3s;
+        }
+        
+        
+        #titre-entrees-menu4:hover::after {
+            width: 100%;
+        }
+
         .barre-laterale-gauche{
             background: rgb(187,252,125);
             background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
@@ -1243,6 +1319,20 @@ footer {
             grid-column: 5/9;
             text-align: center;
             font-weight: 300;
+        }
+
+        #titre-plats-menu4::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: black;
+            transition: width .3s;
+        }
+        
+        
+        #titre-plats-menu4:hover::after {
+            width: 100%;
         }
 
         .barre-laterale-gauche{
@@ -1310,6 +1400,20 @@ footer {
             grid-column: 5/9;
             text-align: center;
             font-weight: 300;
+        }
+
+        #titre-desserts-menu4::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: black;
+            transition: width .3s;
+        }
+        
+        
+        #titre-desserts-menu4:hover::after {
+            width: 100%;
         }
 
         .barre-laterale-gauche{

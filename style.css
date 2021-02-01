@@ -601,54 +601,26 @@ footer :visited {
   grid-template-rows: repeat(5, auto);
   color: #532b30;
   font-size: 16px;
-  /*             :nth-child(1)::before {
-                content: '';
-                width: 0%;
-                margin: 2%;
-                margin-left: 9%;
-                height: 10%;
-                background-color: $font-color-menu1;
-                position: absolute;
-                display: flex;
-                align-self: flex-start;
-                align-items: center;
-                transition: width .3s;
-            }
-
-            :hover::before {
-                width: 20%;
-                max-width: 20%;
-                transition: width 2s;
-            }
-   
-
-            :nth-child(1)::after {
-                content: '';
-                width: 0%;
-                margin: 2%;
-                margin-right: 9%;
-                height: 10%;
-                background-color: $font-color-menu1;
-                position: absolute;
-                display: flex;
-                align-self: flex-end;
-            }
-
-            :hover::after {
-                width: 20%;
-                max-width: 20%;
-                transition: width 2s;
-            } */
 }
 
 #main-menu1 .entrees-menu #titre-entrees-menu1 {
-  /* @include grid-titre-menu; */
   font-size: 20px;
   grid-row: 1;
   grid-column: 6/8;
   text-align: center;
-  /* align-self: center;
-            position: relative; */
+}
+
+#main-menu1 .entrees-menu #titre-entrees-menu1::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #532b30;
+  transition: width .3s;
+}
+
+#main-menu1 .entrees-menu #titre-entrees-menu1:hover::after {
+  width: 100%;
 }
 
 #main-menu1 .entrees-menu .barre-laterale-gauche {
@@ -657,8 +629,6 @@ footer :visited {
   grid-column: 2/5;
   height: 3px;
   width: 100%;
-  /* vertical-align: middle;
-            line-height: 100px; */
   transition: width .3s;
   display: flex;
   align-self: center;
@@ -670,8 +640,6 @@ footer :visited {
   grid-column: 9/12;
   height: 3px;
   width: 100%;
-  /* vertical-align: middle;
-            line-height: 100px; */
   transition: width .3s;
   display: flex;
   align-self: center;
@@ -738,13 +706,23 @@ footer :visited {
 }
 
 #main-menu1 .plats-menu #titre-plats-menu1 {
-  /* @include grid-titre-menu; */
   font-size: 20px;
   grid-row: 1;
   grid-column: 5/9;
   text-align: center;
-  /* align-self: center;
-            position: relative; */
+}
+
+#main-menu1 .plats-menu #titre-plats-menu1::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #532b30;
+  transition: width .3s;
+}
+
+#main-menu1 .plats-menu #titre-plats-menu1:hover::after {
+  width: 100%;
 }
 
 #main-menu1 .plats-menu .barre-laterale-gauche {
@@ -753,8 +731,6 @@ footer :visited {
   grid-column: 2/5;
   height: 3px;
   width: 100%;
-  /* vertical-align: middle;
-            line-height: 100px; */
   transition: width .3s;
   display: flex;
   align-self: center;
@@ -766,8 +742,6 @@ footer :visited {
   grid-column: 9/12;
   height: 3px;
   width: 100%;
-  /* vertical-align: middle;
-            line-height: 100px; */
   transition: width .3s;
   display: flex;
   align-self: center;
@@ -821,13 +795,23 @@ footer :visited {
 }
 
 #main-menu1 .dessert-menu #titre-desserts-menu1 {
-  /* @include grid-titre-menu; */
   font-size: 20px;
   grid-row: 1;
   grid-column: 5/9;
   text-align: center;
-  /* align-self: center;
-            position: relative; */
+}
+
+#main-menu1 .dessert-menu #titre-desserts-menu1::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #532b30;
+  transition: width .3s;
+}
+
+#main-menu1 .dessert-menu #titre-desserts-menu1:hover::after {
+  width: 100%;
 }
 
 #main-menu1 .dessert-menu .barre-laterale-gauche {
@@ -836,8 +820,6 @@ footer :visited {
   grid-column: 2/5;
   height: 3px;
   width: 100%;
-  /* vertical-align: middle;
-            line-height: 100px; */
   transition: width .3s;
   display: flex;
   align-self: center;
@@ -849,8 +831,6 @@ footer :visited {
   grid-column: 9/12;
   height: 3px;
   width: 100%;
-  /* vertical-align: middle;
-            line-height: 100px; */
   transition: width .3s;
   display: flex;
   align-self: center;
@@ -946,6 +926,19 @@ footer :visited {
   color: #c67412;
 }
 
+#main-menu-carte2 .entrees-menu #titre-entrees-menu2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #c67412;
+  transition: width .3s;
+}
+
+#main-menu-carte2 .entrees-menu #titre-entrees-menu2:hover::after {
+  width: 100%;
+}
+
 #main-menu-carte2 .entrees-menu .barre-laterale-gauche {
   background-color: #c67412;
   grid-row: 1;
@@ -1023,6 +1016,19 @@ footer :visited {
   color: #a56799;
 }
 
+#main-menu-carte2 .plats-menu #titre-plats-menu2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #a56799;
+  transition: width .3s;
+}
+
+#main-menu-carte2 .plats-menu #titre-plats-menu2:hover::after {
+  width: 100%;
+}
+
 #main-menu-carte2 .plats-menu .barre-laterale-gauche {
   background-color: #a56799;
   grid-row: 1;
@@ -1098,6 +1104,19 @@ footer :visited {
   grid-column: 5/9;
   text-align: center;
   color: #6e4ccc;
+}
+
+#main-menu-carte2 .dessert-menu #titre-desserts-menu2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #6e4ccc;
+  transition: width .3s;
+}
+
+#main-menu-carte2 .dessert-menu #titre-desserts-menu2:hover::after {
+  width: 100%;
 }
 
 #main-menu-carte2 .dessert-menu .barre-laterale-gauche {
@@ -1188,6 +1207,19 @@ footer :visited {
   text-align: center;
 }
 
+#main-menu3 .entrees-menu #titre-entrees-menu3::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+#main-menu3 .entrees-menu #titre-entrees-menu3:hover::after {
+  width: 100%;
+}
+
 #main-menu3 .entrees-menu .barre-laterale-gauche {
   background-color: #0228dd;
   grid-row: 1;
@@ -1259,6 +1291,19 @@ footer :visited {
   text-align: center;
 }
 
+#main-menu3 .plats-menu #titre-plats-menu3::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+#main-menu3 .plats-menu #titre-plats-menu3:hover::after {
+  width: 100%;
+}
+
 #main-menu3 .plats-menu .barre-laterale-gauche {
   background-color: #0670f3;
   grid-row: 1;
@@ -1328,6 +1373,19 @@ footer :visited {
   grid-row: 1;
   grid-column: 5/9;
   text-align: center;
+}
+
+#main-menu3 .dessert-menu #titre-desserts-menu3::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+#main-menu3 .dessert-menu #titre-desserts-menu3:hover::after {
+  width: 100%;
 }
 
 #main-menu3 .dessert-menu .barre-laterale-gauche {
@@ -1433,6 +1491,19 @@ footer :visited {
   font-weight: 300;
 }
 
+#main-menu4 .entrees-menu #titre-entrees-menu4::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+#main-menu4 .entrees-menu #titre-entrees-menu4:hover::after {
+  width: 100%;
+}
+
 #main-menu4 .entrees-menu .barre-laterale-gauche {
   background: #bbfc7d;
   background: -moz-linear-gradient(321deg, #bbfc7d 0%, #41963d 100%);
@@ -1513,6 +1584,19 @@ footer :visited {
   font-weight: 300;
 }
 
+#main-menu4 .plats-menu #titre-plats-menu4::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+#main-menu4 .plats-menu #titre-plats-menu4:hover::after {
+  width: 100%;
+}
+
 #main-menu4 .plats-menu .barre-laterale-gauche {
   background: #bbfc7d;
   background: -moz-linear-gradient(321deg, #bbfc7d 0%, #41963d 100%);
@@ -1591,6 +1675,19 @@ footer :visited {
   grid-column: 5/9;
   text-align: center;
   font-weight: 300;
+}
+
+#main-menu4 .dessert-menu #titre-desserts-menu4::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+
+#main-menu4 .dessert-menu #titre-desserts-menu4:hover::after {
+  width: 100%;
 }
 
 #main-menu4 .dessert-menu .barre-laterale-gauche {
