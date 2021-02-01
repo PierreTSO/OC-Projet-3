@@ -976,49 +976,30 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
-            background-color: #0228dd;
-            position: absolute;
-            display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
-        }
-
-        :hover::before {
-            width: 18%;
-            max-width: 18%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
-            background-color: #0228dd;
-            position: absolute;
-            display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 18%;
-            max-width: 18%;
-            transition: width 2s;
-        }
-
         #titre-entrees-menu3{
-            @include grid-titre-menu;
             font-size: 20px;
-            position: relative;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+        }
+
+        .barre-laterale-gauche{
+            background-color: #0228dd;
+            grid-row: 1;
+            grid-column: 2/4;
+            height: 3px;
+            width: 100%;
+            display: flex;
+            align-self: center;
+        }
+
+        .barre-laterale-droite {
+            background-color: #0228dd;
+            grid-row: 1;
+            grid-column: 10/12;
+            height: 3px;
+            width: 100%;
+            display: flex;
             align-self: center;
         }
     
@@ -1052,49 +1033,30 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
-            background-color: #0670f3;
-            position: absolute;
-            display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
-        }
-
-        :hover::before {
-            width: 18%;
-            max-width: 18%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
-            background-color: #0670f3;
-            position: absolute;
-            display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 18%;
-            max-width: 18%;
-            transition: width 2s;
-        }
-
         #titre-plats-menu3{
-            @include grid-titre-menu;
             font-size: 20px;
-            position: relative;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+        }
+
+        .barre-laterale-gauche{
+            background-color: #0670f3;
+            grid-row: 1;
+            grid-column: 2/4;
+            height: 3px;
+            width: 100%;
+            display: flex;
+            align-self: center;
+        }
+
+        .barre-laterale-droite {
+            background-color: #0670f3;
+            grid-row: 1;
+            grid-column: 10/12;
+            height: 3px;
+            width: 100%;
+            display: flex;
             align-self: center;
         }
     
@@ -1168,9 +1130,29 @@ footer {
         }
 
         #titre-desserts-menu3{
-            @include grid-titre-menu;
             font-size: 20px;
-            position: relative;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+        }
+
+        .barre-laterale-gauche{
+            background-color: #229df9;
+            grid-row: 1;
+            grid-column: 2/4;
+            height: 3px;
+            width: 100%;
+            display: flex;
+            align-self: center;
+        }
+
+        .barre-laterale-droite {
+            background-color: #229df9;
+            grid-row: 1;
+            grid-column: 10/12;
+            height: 3px;
+            width: 100%;
+            display: flex;
             align-self: center;
         }
     
