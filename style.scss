@@ -1090,45 +1090,6 @@ footer {
         font-size: 16px;
         font-weight: 600;
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
-            background-color: #229df9;
-            position: absolute;
-            display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
-        }
-
-        :hover::before {
-            width: 18%;
-            max-width: 18%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
-            background-color: #229df9;
-            position: absolute;
-            display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 18%;
-            max-width: 18%;
-            transition: width 2s;
-        }
-
         #titre-desserts-menu3{
             font-size: 20px;
             grid-row: 1;
@@ -1210,57 +1171,37 @@ footer {
         @include grid-menu(4);
         font-size: 16px;
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
+        #titre-entrees-menu4{
+            font-size: 20px;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .barre-laterale-gauche{
             background: rgb(187,252,125);
             background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
             background: -webkit-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
             background: linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
-            position: absolute;
+            grid-row: 1;
+            grid-column: 2/4;
+            height: 3px;
+            width: 100%;
             display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
+            align-self: center;
         }
 
-        :hover::before {
-            width: 22%;
-            max-width: 22%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
+        .barre-laterale-droite {
             background: rgb(65,150,61);
             background: -moz-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
             background: -webkit-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
             background: linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
-            position: absolute;
+            grid-row: 1;
+            grid-column: 10/12;
+            height: 3px;
+            width: 100%;
             display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 22%;
-            max-width: 22%;
-            transition: width 2s;
-        }
-       
-
-        #titre-entrees-menu4{
-            @include grid-titre-menu;
-            font-size: 20px;
-            font-weight: 300;
-            position: relative;
             align-self: center;
         }
     
@@ -1295,58 +1236,38 @@ footer {
     .plats-menu {
         @include grid-menu(4);
         font-size: 16px;
+        
+        #titre-plats-menu4{
+            font-size: 20px;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+            font-weight: 300;
+        }
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
+        .barre-laterale-gauche{
             background: rgb(187,252,125);
             background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
             background: -webkit-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
             background: linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
-            position: absolute;
+            grid-row: 1;
+            grid-column: 2/4;
+            height: 3px;
+            width: 100%;
             display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
+            align-self: center;
         }
 
-        :hover::before {
-            width: 22%;
-            max-width: 22%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
+        .barre-laterale-droite {
             background: rgb(65,150,61);
             background: -moz-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
             background: -webkit-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
             background: linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
-            position: absolute;
+            grid-row: 1;
+            grid-column: 10/12;
+            height: 3px;
+            width: 100%;
             display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 22%;
-            max-width: 22%;
-            transition: width 2s;
-        }
-        
-
-        #titre-plats-menu4{
-            @include grid-titre-menu;
-            font-size: 20px;
-            font-weight: 300;
-            position: relative;
             align-self: center;
         }
     
@@ -1381,58 +1302,39 @@ footer {
     .dessert-menu {
         @include grid-menu(4);
         font-size: 16px;
+        
 
-        :nth-child(1)::before {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-left: 9%;
-            height: 10%;
+        #titre-desserts-menu4{
+            font-size: 20px;
+            grid-row: 1;
+            grid-column: 5/9;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .barre-laterale-gauche{
             background: rgb(187,252,125);
             background: -moz-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
             background: -webkit-linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
             background: linear-gradient(321deg, rgba(187,252,125,1) 0%, rgba(65,150,61,1) 100%);
-            position: absolute;
+            grid-row: 1;
+            grid-column: 2/4;
+            height: 3px;
+            width: 100%;
             display: flex;
-            align-self: flex-start;
-            align-items: center;
-            transition: width .3s;
+            align-self: center;
         }
 
-        :hover::before {
-            width: 22%;
-            max-width: 22%;
-            transition: width 2s;
-        }
-
-
-        :nth-child(1)::after {
-            content: '';
-            width: 0%;
-            margin: 2%;
-            margin-right: 9%;
-            height: 10%;
+        .barre-laterale-droite {
             background: rgb(65,150,61);
             background: -moz-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
             background: -webkit-linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
             background: linear-gradient(321deg, rgba(65,150,61,1) 0%, rgba(187,252,125,1) 100%);
-            position: absolute;
+            grid-row: 1;
+            grid-column: 10/12;
+            height: 3px;
+            width: 100%;
             display: flex;
-            align-self: flex-end;
-        }
-
-        :hover::after {
-            width: 22%;
-            max-width: 22%;
-            transition: width 2s;
-        }
-        
-
-        #titre-desserts-menu4{
-            @include grid-titre-menu;
-            font-size: 20px;
-            font-weight: 300;
-            position: relative;
             align-self: center;
         }
     
