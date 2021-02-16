@@ -576,7 +576,7 @@ footer :visited {
   flex-direction: column;
 }
 
-#main-menu1 #titre-menu1 #note-music {
+#main-menu1 #titre-menu1 .note {
   text-align: center;
   margin-top: 10px;
   font-size: 5em;
@@ -862,7 +862,7 @@ footer :visited {
   padding: 20px 0;
 }
 
-#main-menu1 #fin-menu1 #note-music {
+#main-menu1 #fin-menu1 .note {
   font-size: 3em;
   transform: skew(-10deg, -15deg);
   color: #c31f2e;

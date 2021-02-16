@@ -454,7 +454,7 @@ footer {
         display: flex;
         flex-direction: column;
         
-        #note-music {
+        .note {
             text-align: center;
             margin-top: 10px;
             font-size: 5em;
@@ -709,7 +709,7 @@ footer {
         align-items: center;
         padding: 20px 0;
 
-        #note-music {
+        .note {
             font-size: 3em;
             transform: skew(-10deg, -15deg);
             @include gradient-music;
